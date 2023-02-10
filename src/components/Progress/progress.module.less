@@ -1,0 +1,41 @@
+.progress-wrap {
+  margin-top: 4px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  :global {
+    .ant-progress-line {
+      line-height: 0;
+      .ant-progress-outer{
+        height: 100%!important;
+      }
+    }
+    .ant-progress-inner {
+      border-radius: 0;
+      background-color: var(--ant-progress-bg);
+      height: 100%!important;
+      .ant-progress-success-bg,
+      .ant-progress-bg {
+        border-radius: 0;
+      }
+      .ant-progress-bg {
+        height: 100%!important;
+      }
+    }
+    .ant-progress {
+      .ant-progress-steps-item {
+        background-color: var(--ant-progress-steps--bg) !important;
+        // height: 100%!important;
+      }
+    }
+    .ant-progress-steps{
+      height: 100%!important;
+      .ant-progress-steps-outer{
+        height: 100%!important;
+        .ant-progress-steps-item {
+          height: 100%!important;
+        }
+      }
+    }
+  }
+}

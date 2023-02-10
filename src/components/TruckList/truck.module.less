@@ -1,0 +1,176 @@
+.truckList {
+  pointer-events: auto;
+  width: max-content;
+  height: max-content;
+  background: var(--common-content-bg);
+  background-size: 100% 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  .tableTabHead {
+    height: 32px;
+    background: var(--carout-prop-bg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    .tableTabTitle {
+      padding: 9px 0 9px 44px;
+      padding-left: 12%;
+      font-size: 14px;
+      line-height: 1;
+      font-family: Source Han Sans CN;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 1);
+      text-shadow: 0 4px 4px rgba(3, 240, 255, 0.25);
+      display: flex;
+      align-items: center;
+    }
+    .tableTabNum {
+      padding: 10px 12px 8px 0;
+      font-size: 14px;
+      line-height: 1;
+      font-family: Source Han Sans CN;
+      font-weight: bold;
+      color: var(--num-color);
+    }
+    .showMoreBtn {
+      color: var(--num-color);
+      background: var(--ant-btn-primary-bg);
+      // border: 1px solid;
+      // border-image: linear-gradient(136.22deg, rgba(3,240,255,0.43) 0%,rgba(3,240,255,0.25) 100%) 1 1;
+      border-radius: 4px;
+      // text-align: center;
+      margin-left: 10px;
+      cursor: pointer;
+      font-size: 12px;
+      padding: 4px 6px;
+      display: flex;
+    }
+    @media screen and (max-width: 1200px) {
+      .showMoreBtn{
+        width: 50px;
+      }
+    }
+    .tableTabClose {
+      width: 16px;
+      height: 16px;
+      align-self: center;
+      margin-right: 16px;
+      z-index: 10000;
+      cursor: pointer;
+      background: url(../../assets/images/close.png) no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+  .tableTabContent {
+    padding: 12px 8px 4px;
+    :global {
+      .ant-table-body {
+        table {
+          border-spacing: 0 8px;
+          position: relative;
+          top: -8px;
+        }
+      }
+      .ant-table-cell {
+        font-size: 10px;
+        font-family: Source Han Sans CN;
+        font-weight: normal;
+        line-height: 1;
+        border: 0;
+      }
+      .ant-table-thead {
+        border-radius: 2px;
+        .ant-table-cell {
+          color: var(--ant-table-thead--color);
+          background-color: var(--ant-table-thead--bg);
+          padding: 12px 4px;
+        }
+        .ant-table-cell-scrollbar {
+          border: 0;
+        }
+      }
+      .ant-table-row {
+        cursor: pointer;
+        .ant-table-cell {
+          color: var(--ant-table-cell-color);
+          background: var(--ant-table-cell-bg);
+          padding: 12px 4px;
+        }
+      }
+      .ant-table-row-cross-color {
+        .ant-table-cell {
+          color: var(--ant-table-cell-color);
+          background:var( --ant-table-row-cross-color-bg) ;
+        }
+      }
+      .ant-table-row.active {
+        .ant-table-cell:first-child {
+          border-left: 2px solid var(--table-cell-border-left-color);
+        }
+        .ant-table-cell {
+          background: var(--ant-table-cell-active-bg);
+        }
+      }
+      .ant-table {
+        background: initial;
+      }
+      .ant-table-placeholder:hover {
+        .ant-table-cell {
+          background: none;
+        }
+      }
+      .ant-empty-image {
+        display: none;
+      }
+      .ant-empty-description {
+        color: var(--word-color)!important;
+      }
+    }
+  }
+  /*---滚动条默认显示样式--*/
+  ::-webkit-scrollbar-thumb{
+    height: 50px;
+    border-radius: 4px;
+  }
+
+  /*---鼠标点击滚动条显示样式--*/
+  ::-webkit-scrollbar-thumb:hover{
+    height: 50px;
+    border-radius: 4px;
+  }
+
+  /*---滚动条大小--*/
+  ::-webkit-scrollbar{
+    width: 2px;
+    height: 8px;
+  }
+
+  /*---滚动框背景样式--*/
+  ::-webkit-scrollbar-track-piece{
+    -webkit-border-radius: 0;
+  }
+
+   /* 滚动条的滑轨背景颜色 */ 
+  ::-webkit-scrollbar-track {
+    background-color: var(--ant-table-row-cross-color-bg);
+  }
+   /* 滑块颜色 */ 
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--webkit-scrollbar-thumb-bg);
+  }
+   /* 滚动条滑轨 */
+  ::-webkit-scrollbar-button { display: none;  }
+   /* 横向滚动条和纵向滚动条相交处尖角 */
+  ::-webkit-scrollbar-corner { display: none; }
+}
+.carOut{
+  width: max-content;
+  max-width: 500px;
+  height: 400px;
+  position: absolute;
+  right: 412px;
+  bottom: 352px;
+  box-shadow: 0px 4px 10px rgba(0, 20, 38, 0.15);
+  backdrop-filter: blur(32px);
+  z-index: 1000000;
+}

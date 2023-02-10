@@ -1,0 +1,86 @@
+{
+  "apis": [],
+  "apiConfigs": [],
+  "action": {},
+  "components": [
+    {
+      "id": "Form-mdsSnp",
+      "componentName": "Form",
+      "version": "0.0.1",
+      "attrs": {},
+      "props": {
+        "layout": "horizontal"
+      },
+      "children": [
+        {
+          "componentName": "Form.Item",
+          "props": {
+            "label": "name",
+            "name": "name",
+            "validateFirst": true
+          },
+          "children": {
+            "componentName": "Input",
+            "version": "0.0.1",
+            "id": "Input-Kyw4Y3"
+          },
+          "id": "Form.Item-HhaZNm"
+        },
+        {
+          "componentName": "Form.Item",
+          "children": {
+            "componentName": "Button",
+            "version": "0.0.1",
+            "props": {
+              "htmlType": "submit",
+              "children": "提交"
+            },
+            "id": "Button-xpcrz5"
+          },
+          "id": "Form.Item-GZDJZ6"
+        }
+      ]
+    },
+    {
+      "id": "Table-drh7tp",
+      "componentName": "Table",
+      "version": "0.0.1",
+      "attrs": {},
+      "props": {
+        "rowKey": "id",
+        "pagination": true,
+        "columns": [
+          {
+            "title": "姓名",
+            "dataIndex": "name",
+            "$$component$$render": {
+              "arguments": [
+                "text",
+                "record",
+                "idx"
+              ],
+              "components": []
+            },
+            "width": "",
+            "key": "name"
+          },
+          {
+            "title": "年龄",
+            "dataIndex": "age",
+            "$$component$$render": {
+              "arguments": [
+                "text",
+                "record",
+                "idx"
+              ],
+              "components": []
+            },
+            "width": "",
+            "key": "age"
+          }
+        ],
+        "dataSource": "${[{ id: 1, name: \"张三\", age: 12 }, { id: 2, name: \"李四\", age: 21 }]}"
+      }
+    }
+  ]
+}

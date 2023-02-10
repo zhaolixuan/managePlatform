@@ -1,0 +1,37 @@
+@clusterSize: 30px;
+.markerSize{
+  width: 100px;
+  height: 30px;
+}
+.flexCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.colorBlue{
+  border: 1px solid #51bbd6;
+  background-color: #51bbd6;
+}
+.colorPink{
+  border: 1px solid #f28cb1;
+  background-color: #f28cb1;
+
+}
+.clusterContainer{
+  box-shadow: 0,0,10px #fff;
+  border-radius: 50%;
+  width: @clusterSize;
+  height:@clusterSize;
+  .flexCenter;
+}
+.markerContainer{
+  border-radius: 5px;
+  .markerSize;
+  .flexCenter;
+}
+.markerContainer2{
+  border-radius: 5px;
+  width: 120px;
+  height: 30px;
+  .flexCenter;
+}

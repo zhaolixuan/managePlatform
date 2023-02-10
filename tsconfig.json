@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "isolatedModules": true,
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "jsx": "react-jsx",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "downlevelIteration": true,
+        "noUnusedLocals": false,
+        "newLine": "LF",
+        "skipLibCheck": true,
+        "baseUrl": "./",
+        "outDir": "build/",
+        "paths": {
+            "@/*": ["src/*"],
+            "src/*": ["src/*"],
+        },
+        "module": "ESNext",
+        "target": "ESNext"
+    },
+    "includes": ["./src/**/*"],
+    "exclude": ["node_modules", "./build"]
+}

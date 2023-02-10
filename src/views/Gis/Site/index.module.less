@@ -1,0 +1,268 @@
+.site_wrap {
+  // width: 100vw;
+  // height: 100vh;
+  .boxShadow {
+    box-shadow: var(--common-box-shadow);
+    backdrop-filter: var(--common-backdrop-filter);
+    margin: 0 12px 12px;
+  }
+  .content_wrap {
+    z-index: 9999999;
+    display: flex;
+    position: absolute;
+    top: 92px;
+    left: 385px;
+  }
+  .com_padding{
+    height: 100%;
+    overflow: hidden;
+    padding: 0 0 16px;
+  }
+  .login_btn {
+    position: absolute;
+    top: 92px;
+    right: 420px;
+    z-index: 99999999;
+
+    :global {
+      .ant-btn-primary {
+        color: #fff;
+        background: var(--ant-btn-primary-bg);
+        border-radius: 4px;
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+        border: none;
+        &:hover {
+          background: var(--select-hover-bg);
+        }
+      }
+    }
+  }
+
+  .check_box {
+    position: absolute;
+    bottom: 32px;
+    left: 23.8%;
+    z-index: 9999;
+    width: auto;
+    :global {
+      .ant-checkbox-group-item {
+        width: 144px !important;
+      }
+    }
+
+    .checkbox .checkbox-extend {
+      width: 380px !important;
+    }
+  }
+  .icheck_box {
+    position: absolute;
+    bottom: 32px;
+    left: 23.8%;
+    z-index: 9999;
+    width: 380px;
+    :global {
+      .ant-checkbox-group-item {
+        width: 144px !important;
+      }
+    }
+
+    .checkbox .checkbox-extend {
+      width: 380px !important;
+    }
+  }
+  .table_list {
+    // height: calc(100vh - 92px - 25px);
+    overflow-y: auto;
+    height: 100%;
+    &::-webkit-scrollbar{
+      width: 0;
+    }
+  }
+  .left {
+    // width: 460px;
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    // right: 40px;
+    z-index: 2222;
+    display: flex;
+    box-sizing: border-box;
+    background: var(--excess-left-bg);
+    background-size: 100% 100%;
+    padding: 18px 0 0 28px;
+
+    & .show {
+      display: block;
+    }
+
+    & .hidden {
+      display: none;
+    }
+    .img_wrap {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      img {
+        width: 40px;
+      }
+    }
+  }
+
+  .right {
+    background: var(--excess-right-bg);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    padding: 33px 28px 0 0;
+
+    & .show {
+      display: block;
+    }
+
+    & .hidden {
+      display: none;
+    }
+
+    .img_wrap {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      img {
+        width: 40px;
+      }
+    }
+  }
+
+  .place_number {
+    // position: absolute;
+    // top: 582px;
+    // right: 40px;
+    height: 326px;
+    width: 370px;
+    // margin:  0 8px 0;
+  }
+
+  .mr_r {
+    margin-right: 20px;
+    min-width: 50px;
+  }
+
+  .mr_l {
+    margin-left: 20px;
+  }
+
+  .image_tab {
+    // position: absolute;
+    // right: 40px;
+    // top: 88px;
+    width: 370px;
+    height: 432px;
+    overflow: hidden auto;
+    display: flex;
+    // box-shadow: 0 4px 16px 0 rgba(0, 20, 38, 0.15);
+  }
+
+  .bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    span {
+      width: 40px;
+    }
+  }
+
+  .btn_search {
+    position: absolute;
+    top: 92px;
+    left: 1020px;
+    pointer-events: auto;
+    background: var(--ant-btn-primary-bg);
+    // border: 1px solid;
+    // border-image: linear-gradient(
+    //     95.47deg,
+    //     rgba(3, 240, 255, 0.19) 0%,
+    //     rgba(3, 240, 255, 0.46) 33.87247026%,
+    //     rgba(3, 240, 255, 0.44) 52.60416865%,
+    //     rgba(3, 240, 255, 0.19) 100%
+    //   )
+    //   0.5 0.5;
+    border-radius: 2px;
+    color: #fff;
+    border: 0;
+    :global {
+      .ant-btn.active, .ant-btn:active, .ant-btn:focus, .ant-btn:hover{
+        border: 0
+      }
+    } 
+
+    
+    // opacity: 0.95;
+  }
+  .chartBox{
+    width: 370px;
+  }
+  /*---鼠标点击滚动条显示样式--*/
+  ::-webkit-scrollbar-thumb:hover {
+    height: 50px;
+    border-radius: 4px;
+  }
+
+  /*---滚动条大小--*/
+  ::-webkit-scrollbar {
+    width: 2px;
+    height: 8px;
+  }
+
+  /*---滚动框背景样式--*/
+  ::-webkit-scrollbar-track-piece {
+    -webkit-border-radius: 0;
+  }
+
+  /* 滚动条的滑轨背景颜色 */
+  ::-webkit-scrollbar-track {
+    background-color: var(--ant-table-row-cross-color-bg);
+    // opacity: 40;
+  }
+
+  /* 滑块颜色 */
+  ::-webkit-scrollbar-thumb {
+    // background-color: var(--webkit-scrollbar-thumb-bg);
+    background-color: var(--webkit-scrollbar-thumb-bg-site)
+    // opacity: 10;
+  }
+
+  /* 滚动条滑轨 */
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  /* 横向滚动条和纵向滚动条相交处尖角 */
+  ::-webkit-scrollbar-corner {
+    display: none;
+  }
+}
+
+.login_page {
+  position: relative;
+  text-align: center;
+
+  .login_btn {
+    position: absolute;
+    left: 168px;
+    top: 383px;
+    width: 257px;
+    height: 42px;
+    cursor: pointer;
+  }
+}
+
+.mobileP {
+  top: 0 !important;
+  padding-top: 80px !important;
+}

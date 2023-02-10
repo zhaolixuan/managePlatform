@@ -1,0 +1,93 @@
+@menu-head-height: 49px;
+
+:global {
+  .ant-menu-submenu-popup, .ant-menu-inline-collapsed-tooltip {
+    display: none;
+  }
+}
+
+.menu-wrapper {
+  overflow-y: auto;
+  height: calc(100vh - @layout-trigger-height - 16px);
+  background: var(--manage-menu-bg);
+  background-size: 100% 100%;
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  :global {
+    .ant-menu-inline-collapsed {
+      .menu-icon-img + span {
+          display: none;
+      }
+    }
+    .ant-menu-root{
+      margin-top: 12px;
+    }
+    .menu-icon-img {
+      margin-right: 10px;
+    }
+    .ant-menu {
+      background: none;
+      > li {
+        // border-radius: 2px;
+        // margin-left: 2px;
+        // margin-right: 2px;
+        // margin-top: 0px;
+      }
+    }
+    .ant-menu-inline{
+      padding:0;
+    }
+
+    .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected{
+      background: var(--manage-menu-sub-select-bg) ;
+    }
+    .ant-menu-submenu-title, .ant-menu-item-only-child {
+      padding-left: 0 !important;
+      margin:0 !important;
+      height: 44px !important;
+      line-height: 44px !important;
+      color:var(--manage-menu-color);
+      img{
+        width: 15px;
+        height: 15px;
+        margin:0 15px;
+      }
+    }
+    .ant-menu-dark .ant-menu-item {
+      padding: 0 12px
+    }
+    .ant-menu-dark .ant-menu-item a{
+      color:var(--manage-menu-sub-color);
+      margin-left: 15px;
+    }
+    .ant-menu-inline .ant-menu-submenu {
+      padding-bottom: 0;
+      // margin-top: 12px;
+    }
+    .ant-menu-sub {
+      .ant-menu-item {
+        padding-left: 0 !important;
+        background-color: var(--manage-menu-sub-bg);
+        margin:0;
+        img{
+          width: 15px;
+          height: 15px;
+          margin-left:15px;
+          margin-right: 0;
+        }
+      }
+    }
+    .ant-menu-inline-collapsed > .ant-menu-submenu {
+      padding: 0;
+    }
+    .ant-layout-sider-trigger {
+      background: #212121;
+    }
+    .menu-icon-img {
+      width: 16px;
+      height: 16px;
+      margin-right: 18px;
+    }
+  }
+}

@@ -1,0 +1,116 @@
+.login-plugin {
+  // background: linear-gradient(to right, #041D65 , #00136B);
+}
+.login-bg-img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  right: 15vw;
+  // background: linear-gradient(to right, #041D65 , #00136B);
+}
+.login-part {
+  width: 400px;
+  box-sizing: border-box;
+  background: #063266;
+  box-shadow: 0px 9px 24px 0px rgba(0, 0, 0, 0.32);
+  border-radius: 1px;
+  position: relative;
+  .login-tip {
+    margin-top: 16px;
+    padding: 0 24px 20px;
+    font-size: 20px;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: #fff;
+    line-height: 28px;
+    text-align: center;
+  }
+  .ant-tabs-bar {
+    width: 240px;
+  }
+  .ant-tabs-tab {
+    width: 120px;
+    margin: 0;
+    text-align: center;
+  }
+}
+.login-form {
+  padding: 0 28px;
+  :global {
+    .ant-btn-lg {
+      height: 50px;
+    }
+    .ant-form-item-required {
+      &::before {
+        display: none;
+      }
+    }
+    .ant-form-item-label label {
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+      line-height: 23px;
+      letter-spacing: 3px;
+    }
+    .ant-input {
+      color: #fff;
+      background-color: #063266 !important;
+      border: 1px solid #a3c6ff !important;
+      border-radius: 2px;
+      font-size: 14px;
+      font-family: PingFangSC-Regular;
+      font-weight: 400;
+      line-height: 23px;
+      padding-left: 0;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    .has-error .ant-input:focus {
+      box-shadow: none;
+      border-bottom: 1px solid #ff4d4f;
+    }
+    .ant-form-item {
+      &:first-child {
+        margin-top: 20px;
+      }
+    }
+    .valid-code {
+      display: flex;
+      .valid-code-input {
+        flex: 1
+      }
+      .valid-code-btn {
+        margin-top: 20px;
+      }
+      .ant-btn {
+        margin-left: 10px;
+        background-color: initial;
+        box-shadow: initial;
+      }
+    }
+  }
+  .login-title {
+    text-align: center;
+    color: #000000;
+    font-size: 24px;
+  }
+  .login-form-forgot {
+    float: right;
+    margin-top: 12px;
+    margin-bottom: 21px;
+    color: #1890ff;
+    font-size: 14px;
+  }
+  button {
+    box-shadow: 0px 6px 13px 0px rgba(0, 123, 255, 0.34);
+    margin-top: 20px;
+    &:disabled {
+      background: rgba(0, 6, 32, 0.04);
+      box-shadow: 0px 6px 13px 0px rgba(0, 6, 32, 0.04);
+    }
+  }
+}

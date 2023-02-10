@@ -1,0 +1,62 @@
+.site {
+  background-color: #fafafa;
+
+  .table_list {
+    padding: 16px;
+    background-color: #fff;
+    height: calc(100vh - 1px);
+    // overflow: hidden auto;
+    overflow: auto;
+    padding-top:0;
+    .picker {
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0;
+      background-color:white;
+      z-index: 999;
+      padding: 10px 0;
+      padding-left: 18px;
+    }
+    .content {
+      .content_item {
+        margin-bottom: 10px;
+        h1 {
+          font-family: PingFang SC;
+          height: 40px;
+          line-height: 40px;
+          font-weight: 600;
+          color: #000;
+          margin-bottom: 0;
+          background-color: #f3f3f3;
+          font-size: 14px;
+          padding-left: 16px;
+        }
+      }
+    }
+  }
+
+  .search_form {
+    padding-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button {
+      margin-right: 10px;
+    }
+  }
+
+
+  :global {
+    .ant-list-item {
+      padding: 0 30px 0 16px;
+      height: 40px;
+      font-size: 14px;
+      border-bottom: none;
+      &:nth-child(2n) {
+        background-color: #F9F9F9;
+      }
+    }
+  }
+
+}

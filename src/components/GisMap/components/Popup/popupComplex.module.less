@@ -1,0 +1,127 @@
+.popup-content{
+  width: 545px;
+
+  :global{
+    .mapboxgl-popup-tip{
+      border-bottom-color: rgba(0, 0, 0, 0)
+    }
+  }
+
+  .header-area{
+    background: var(--popup-complex-head-bg);
+    background-size: 100% 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .head-decorator{
+      margin-left: 16px;
+    }
+    .close-button{
+      right: 10px;
+    }
+    .header{
+      height: 29px;
+      line-height: 29px;
+      margin-left: 14px;
+      font-size: 14px;
+      font-family: Source Han Sans CN;
+      font-weight: bold;
+      color: rgba(255,255,255,1);
+      text-shadow: 0 4px 4px rgba(3,240,255,0.25);
+    }
+    .show-more{
+      width: 36px;
+      height: 18px;
+      line-height: 16px;
+      color: var(--num-color);
+      background: var(--ant-btn-primary-bg);
+      font-size: 12px;
+      border: 1px solid;
+      border-image: linear-gradient(136.22deg, rgba(3,240,255,0.43) 0%,rgba(3,240,255,0.25) 100%) 1 1;
+      border-radius: 4px;
+      text-align: center;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    
+    .close-button{
+      color: white;
+      margin-left: 17px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+  }
+  .not-show-more{
+    display: none;
+  }
+  .content-area{
+    background: var(--common-content-bg);
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 9px 16px;
+    .img-wrapper{
+      height: 117px;
+      width: 100%;
+      // padding: 16px 16px 12px 16px;
+      // margin-bottom: 20px;
+      margin: 0 0 12px 10px;
+    }
+    .content-wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .item-wrapper{
+        height: 28px;
+        width: 248px;
+        font-size: 12px;
+        font-family: Source Han Sans CN;
+        font-weight: normal;
+        color: var(--word-color);
+        display: flex;
+        align-items: center;
+        .split-line{
+          color:#696969
+        }
+        .detail-name{
+          width: 157px;
+        } 
+        .detail-value{
+          padding-left: 8px;
+          font-size: 12px;
+          font-family: Source Han Sans CN;
+          font-weight: normal;
+          color: var(--word-color);
+        }
+      }
+    }
+    .footer{
+      // background: url('../../assets/popup-table-bg.png') no-repeat;
+      background-size: 100% 100%;
+      width: 207px;
+      height: 77px;
+      margin:13px 16px 0px 16px;
+      .footer-header{
+        display: flex;
+        font-size: 12px;
+        font-family: Source Han Sans CN;
+        font-weight: normal;
+        height: 28px;
+        line-height: 28px;
+        text-align: center;
+        color: rgba(255,255,255,0.6);
+        .split-line{
+          color:#696969
+        }
+        .table-name{
+          width:66px
+        }
+        .table-phone{
+          width:86px
+        }
+        .table-operation{
+          width:52px
+        }
+      }
+    }
+  }
+}

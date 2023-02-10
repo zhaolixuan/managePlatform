@@ -1,0 +1,43 @@
+.confirm_wrap {
+
+    // position: relative;
+    :global {
+      .ant-modal-body {
+        position: relative;
+        height: 150px;
+  
+        .ant-modal-confirm-btns {
+          padding-right: 10px;
+          width: 100%;
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          background: rgba(239,243,252,1);
+          line-height: 50px;
+          text-align: right;
+          .ant-btn {
+            background: rgba(90,134,246,0.2);
+            color: rgba(36,97,255,1);
+            border: 1px solid rgba(36,97,255,0.68);
+            border-radius: 4px;
+          }
+          .ant-btn-primary {
+            background: rgba(36,97,255,1);
+            border-radius: 4px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .search_form {
+    margin-bottom: 20px;
+    display: flex;
+    .btns {
+      button {
+        margin-right: 10px;
+      }
+      margin-right: 24px;
+    }
+  }

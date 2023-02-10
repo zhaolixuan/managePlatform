@@ -1,0 +1,57 @@
+.form-demo-basic {
+    padding: 0 16px;
+  }
+  
+  :global {
+    .ant-modal-body {
+      padding: 0;
+      // width: 336px;
+      margin: 20px auto 8px;
+      
+    }
+  }
+
+  .add_modal {
+    :global {
+      .ant-modal-body {
+        .ant-table-wrapper {
+          min-height: 400px;
+          max-height: 400px;
+          overflow: auto;
+        }
+      }
+      .ant-modal-content {
+        position: relative;
+      }
+      .anticon {
+        position: absolute;
+        left: 60px;
+        top: 19px;
+      }
+    }
+  }
+
+.tip {
+  text-align: left;
+  position: relative;
+}
+
+.tipBtn {
+  margin-bottom: 20px;
+}
+
+.cellItem {
+  :global {
+    .ant-form-item-label > label::after {
+      display: none;
+    }
+  }
+}
+
+.closeButtonTip{
+  position: absolute;
+  top: -30px;
+  right: 0;
+  border: 0;
+  box-shadow: none;
+}

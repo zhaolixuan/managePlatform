@@ -1,0 +1,21 @@
+.map_wrap {
+  width: '100%';
+  height: '100vh';
+  min-height: '1080px';
+  position: 'absolute';
+  z-index: 0;
+  top: 0;
+  background: '#003d5c';
+  :global{
+    .mapboxgl-ctrl.mapboxgl-ctrl-scale {
+      height: 10px;
+      color:var(--scale-num-color);
+      background-color:transparent;
+      line-height:10%;
+      text-align:center;
+      position: relative;
+      border: 1px solid grey;
+      border-top: none;
+    }
+  }
+}

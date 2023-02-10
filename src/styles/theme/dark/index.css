@@ -1,0 +1,158 @@
+/* 暗色主题 */
+:root[theme='dark'] {
+
+    --common-content-bg: url(../../../assets/images/dark/content.png) no-repeat;
+    --common-carOut-bg: url(../../../assets/images/dark/content.png) no-repeat;
+    --common-head-bg: url(../../../assets/images/dark/head.png) no-repeat;
+    --popup-complex-head-bg: url(../../../assets/images/dark/popup-complex-head.png) no-repeat;
+    --theme-color: #1A3B4A;
+    --word-color: #ffffff;
+    --icon-color: #ffffff;
+    --num-color: #00FFFF;
+    --tabs_plan-back: #00FFFF;
+    --img-info-bg: #1A3B4A;
+    --img-info-color: white;
+
+    /* card组件 */
+    --card-title-text-shadow: 0 4px 4px rgba(3, 240, 255, 0.25);
+    --card-title-color: rgba(255, 255, 255, 1);
+
+    --select-hover-bg: linear-gradient(180deg, rgba(0, 254, 255, 0.26) 0%, rgba(18, 26, 37, 0.11) 100%);
+    --select-dropdown-bg: linear-gradient(90.66deg, rgba(39, 52, 70, 1) 0%, rgba(18, 26, 37, 1) 100%);
+    --select-dropdown-hover: linear-gradient(180deg, rgba(0, 254, 255, 0.26) 0%, rgba(18, 26, 37, 0.11) 100%);
+
+
+    /* input组件 */
+    --input-bg: linear-gradient(90.66deg, rgba(39, 52, 70, 1) 0%, rgba(18, 26, 37, 1) 100%);
+    --input-color: #fff;
+
+
+    /* header */
+    --header-logo-bg: url(../../../assets/images/dark/header-left.png) no-repeat;
+    --header-menu-bg: url(../../../assets/images/dark/header-menu.png);
+    --header-right-bg: url(../../../assets/images/dark/header-right.png) no-repeat;
+
+    /* checkbox组件 */
+    /* --checkbox-bg: url(../../../assets/images/dark/checkbox-bg.png); */
+    --checkbox-bg: linear-gradient(180deg, rgba(39, 52, 70, 0.7) 0%, rgba(18, 26, 37, 0.7) 100%);
+    ;
+    --ant-checkbox-inner-color: #03F0FF;
+    --ant-checkbox-checked-color: black;
+    --set-btn-bg-img: url(../../../assets/images/dark/checkbox_config.png) no-repeat;
+    --set-bg-img: url(../../../assets/images/dark/checkbox_extend.png) no-repeat;
+
+    /* table */
+    /* 头部背景色、字体颜色*/
+    --ant-table-thead--bg: #1A2233;
+    --ant-table-thead--color: rgba(255, 255, 255, 0.6);
+    /* 默认行背景色 */
+    --ant-table-cell-bg: #152030;
+    /* 隔行背景色 */
+    --ant-table-row-cross-color-bg: #212B39;
+    /* 选中行背景色 */
+    --ant-table-cell-active-bg: #1A3B4A;
+    /* 选中左侧边框 */
+    --table-cell-border-left-color: aqua;
+    /* 表格字体颜色 */
+    --ant-table-cell-color: rgba(255, 255, 255, 1);
+    /* 滚动条颜色 */
+    --webkit-scrollbar-thumb-bg: #60666E;
+    /* 保供场所八大批发市场滚动条颜色 */
+    --webkit-scrollbar-thumb-bg-site: #213B5E;
+    /* 表格内进度条颜色 */
+    --ant-progress-inner--bg: initial;
+    --ant-progress-steps--bg: #1A5561;
+    --ant-progress-bg: linear-gradient(to right, rgb(0, 195, 255) 0%, rgb(0, 230, 150) 100%);
+
+    /* button */
+    --ant-btn-primary-bg: linear-gradient(90.43deg, #273446 0%, #121a25 100%);
+    --ant-btn-primary-border-image: linear-gradient(95.47deg, rgba(3, 240, 255, 0.19) 0%, rgba(3, 240, 255, 0.46) 33.87247026%, rgba(3, 240, 255, 0.44) 52.60416865%, rgba(3, 240, 255, 0.19) 100%) 0.5 0.5;
+    --ant-btn-noactive-bg: linear-gradient(180deg, rgba(0, 87, 87, 1) 0%, rgba(0, 22, 22, 1) 100%);
+    --ant-btn-active-bg: linear-gradient(180deg, rgba(0, 211, 212, 1) 0%, rgba(0, 59, 60, 0) 100%);
+
+    /* chart */
+    --chart-series-line-color: rgba(0, 255, 250, 1);
+    --chart-series-border-color: rgba(0, 255, 250, 0.4);
+
+    --total-image: url(../../../assets/images/dark/total.png) no-repeat;
+    --carIn_summary-bg: url(../../../assets/images/dark/carIn_summary.png);
+    --user-card-bg: url(../../../assets/images/dark/card_bg.png);
+
+    /* 色系按钮 */
+    --theme-btn-bg: url(../../../assets/images/dark/theme.png) no-repeat;
+    /* 2D3D背景图 */
+    --dimension-2D-btn-bg: url(../../../assets/images/dark/dimension2D.png) no-repeat;
+    --dimension-3D-btn-bg: url(../../../assets/images/dark/dimension3D.png) no-repeat;
+    --dimensionTool-bgm: url(~@/assets/images/dark/dimension-bg.png) no-repeat;
+    --zoom-map-tool-bgn: url(~@/assets/images/dark/zoom-map-tool.png) no-repeat;
+    --orgin-btn-bg: url(~@/assets/images/dark/backTo-origin.png) no-repeat;
+    --checkbox-btn-bg: url(~@/assets/images/dark/checkbox-map-icon.png) no-repeat;
+
+    --pop-area-red: url(../../../assets/images/dark/area-1.png) no-repeat;
+    --pop-area-red-color: #FF4545;
+
+    --pop-area-yellow: url(../../../assets/images/dark/area-2.png) no-repeat;
+    --pop-area-yellow-color: #FFED4C;
+
+    --pop-area-blue: url(../../../assets/images/dark/area-3.png) no-repeat;
+    --pop-area-blue-color: #4CBFFF;
+
+    --pop-area-purple: url(../../../assets/images/dark/area-4.png) no-repeat;
+    --pop-area-purple-color: #FF00D6;
+
+    --staff-popup-wrapper-bgm: url(../../../assets/images/dark/staff-popup-bg.png) no-repeat;
+
+    /* 左右收起栏 */
+    --left-btn: url(../../../assets/images/dark/left_normal.png) no-repeat;
+    --right-btn: url(../../../assets/images/dark/left_active.png) no-repeat;
+
+    /* --point_name-bgm: url(../../../assets/images/dark/text_bg.png) no-repeat; */
+    --point_name-bgm: rgba(29, 40, 54, 1);
+    --point_name-border: 1px solid;
+    --point_name-border-image: linear-gradient(116.97deg, rgba(246, 251, 0, 1) 1.0416666977107525%, rgba(3, 240, 255, 0.44) 51.04166865348816%, rgba(235, 255, 3, 0.58) 100%) 1 1;
+    --more_btn-bgm: url(../../../assets/images/dark/btn.png) no-repeat;
+    --bg_btn-bgm: url(../../../assets/images/dark/baogong-btn.png) no-repeat;
+
+    /* 供保资源 */
+    --ant-input-number--bg: rgba(20, 26, 34, 1);
+    --ant-input-number--border: #03F0FF;
+    --tab-active-bg: url(../../../assets/images/dark/tab_active.png) no-repeat;
+    --tabs_top-bg: url(../../../assets/images/dark/biao_bg.png) no-repeat center/cover;
+
+    --place_num_list-bg: url(../../../assets/images/dark/place_num_list.png) no-repeat;
+    /* 八大批发市场 */
+    --imageInfo-bg: #28313F;
+    --imageInfo-bgm: url(../../../assets/images/dark/locate.png) no-repeat;
+
+    /* 模块间统一间距 */
+    --margin-bottom-12: 12px;
+
+    --icon-up: url(../../../assets/images/dark/up.png);
+    --icon-down: url(../../../assets/images/dark/down.png);
+
+    /* 吸顶更多按钮 */
+    --bottom-btn-bgm: url(../../../assets/images/dark/bottom-btn.png) no-repeat;
+
+    --control-bg: url(../../../assets/images/dark/control.png) no-repeat;
+    --life-bg: url(../../../assets/images/dark/life.png) no-repeat;
+    --send-bg: url(../../../assets/images/dark/send.png) no-repeat;
+
+    --active-control-bg: url(../../../assets/images/dark/control.png) no-repeat;
+    --active-life-bg: url(../../../assets/images/dark/life.png) no-repeat;
+    --active-send-bg: url(../../../assets/images/dark/send.png) no-repeat;
+
+    /* scale比例尺文字的颜色 */
+    --scale-num-color: white;
+
+    /* 京外弹出层的header背景 */
+    --carout-prop-bg: url(../../../assets/images/dark/carout-prop-bg.png) no-repeat;
+
+    /* 调度平台管理后台 */
+    --manage-header-bg:url(../../../assets/images/dark/manage-header-bg.png) no-repeat;
+    --manage-header-color:#fff;
+    --manage-menu-bg:url(../../../assets/images/dark/manage-sub-bg.png) no-repeat;
+    --manage-menu-color:rgba(255,255,255,0.85);
+    --manage-menu-sub-color:rgba(255,255,255,0.65);
+    --manage-menu-sub-bg:rgba(0,0,0,.4);
+    --manage-menu-sub-select-bg:linear-gradient(90deg, rgba(44,104,255,1) 0%,rgba(44,104,255,0.4) 100%);
+}

@@ -1,0 +1,40 @@
+:global{
+  .ant-layout-header-small{
+    line-height: 56px;
+    height: 56px;
+    padding:0px 13px;
+    background: var(--manage-header-bg);
+    background-size: 100% 100%;
+    
+  }
+}
+.header-logo {
+  float: left;
+  display: flex;
+  .logo{
+    width: 32px;
+    height: 32px;
+  }
+  .title{
+    margin-left:8px;
+    a {
+      color: var(--manage-header-color);
+      font-size: 24px;
+      font-family: JDLangZhengTi;
+      font-weight: normal;
+    }
+  }
+}
+
+.header-user {
+  float: right;
+  color: var(--manage-header-color);
+  cursor: pointer;
+  :global {
+    .anticon {
+       font-size: 20px;
+       vertical-align: middle;
+       margin-right: 8px;
+    }
+  }
+}

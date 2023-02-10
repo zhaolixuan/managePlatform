@@ -1,0 +1,184 @@
+.modal-wrapper{
+  :global {
+    .ant-modal-body{
+      padding: 0;
+      margin: 0!important;
+    }
+    .mapboxgl-popup-content{
+      background: white !important;
+    }
+  }
+  .header-wrapper{
+    width: 100%;
+    height: 54px;
+    background: #F5F5F5;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    & > div:first-child{
+      & > span:first-child{
+        margin-right: 40px;
+      }
+    }
+    .right-tools{
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+      & > div:first-child{
+        margin-right: 10px;
+        cursor: pointer;
+      }
+      & > div:nth-child(2){
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        text-align: center;
+        font-size: 16px;
+        color: #696969;
+        cursor: pointer;
+      }
+    }
+    & > div:first-child{
+      margin: 5px 0 5px 16px;
+      display: flex;
+      align-items: center;
+    }
+    // & > div > img{
+    //   width: 20px;
+    //   height: 20px;
+    //   margin-right: 3px;
+    // }
+    // & > img:last-child{
+    //   width: 20px;
+    //   height: 20px;
+    //   top: 5px;
+    //   right: 20px;
+    //   position: absolute;
+    //   cursor: pointer;
+    // }
+  }
+  
+  .content-wrapper{
+    width: 100%;
+    background: white;
+    padding: 10px;
+    display: flex;
+    .left-zone{
+      // width: 952px;
+      height: 100%;
+      flex-grow: 1;
+      position: relative;
+      background-color: #F4F8FE;
+    }
+    .selecting {
+      canvas {
+        cursor: url('./assets/icons/marker-icon.png') 8 32, url('./assets/icons/marker-icon.png'), crosshair;
+      }
+    }
+    .right-zone {
+      margin-left: 30px;
+      height: 100%;
+      .header-zone{
+        width: 371px;
+        .header {
+          font-size: 14px;
+          font-family: PingFang SC;
+          font-weight: 500;
+          color: black;
+          padding-bottom: 9px;
+          margin: 19px 32px 0 0;
+          & > span:first-child{
+            cursor: pointer;
+          }
+        }
+        .active{
+          color: rgba(44,104,255,1) !important;
+          border-bottom: 2px solid;
+        }
+        .tab-wrapper{
+          display: flex;
+        }
+        .split-line {
+          width: 490px;
+          height: 2px;
+          border: 1px solid rgba(0,0,0,0.1);
+        }
+      }
+      .geo-json {
+        min-height:550px;
+        width: 490px;
+        margin-top: 10px;
+        overflow-y: auto;
+      }
+      /*---滚动条默认显示样式--*/
+      ::-webkit-scrollbar-thumb{
+        height: 5px;
+        border-radius: 4px;
+      }
+
+      /*---鼠标点击滚动条显示样式--*/
+      ::-webkit-scrollbar-thumb:hover{
+        height: 20px;
+        border-radius: 4px;
+      }
+
+      /*---滚动条大小--*/
+      ::-webkit-scrollbar{
+        width: 1px;
+        height: 1px;
+      }
+
+      /*---滚动框背景样式--*/
+      ::-webkit-scrollbar-track-piece{
+        -webkit-border-radius: 0;
+      }
+
+      /* 滚动条的滑轨背景颜色 */ 
+      ::-webkit-scrollbar-track {
+        background-color: white;
+        opacity: 0;
+      }
+      /* 滑块颜色 */ 
+      ::-webkit-scrollbar-thumb {
+        background-color: var(--webkit-scrollbar-thumb-bg);
+        // opacity: 10;
+      }
+      /* 滚动条滑轨 */
+      ::-webkit-scrollbar-button { display: none;  }
+      /* 横向滚动条和纵向滚动条相交处尖角 */
+      ::-webkit-scrollbar-corner { display: none; } 
+    }
+  }
+  .footer-wrapper{
+    width: 100%;
+    height: 60px;
+    background: rgba(239,243,252,1);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    & > button:first-child{
+      margin-right: 12px;
+    }
+    & > button:nth-child(2){
+      margin-right: 21px;
+    }
+    :global{
+      .ant-btn-default {
+        margin-right: 12px;
+        background: rgba(90,134,246,0.2);
+        color: rgba(36,97,255,1);
+        border: 1px solid rgba(36,97,255,0.68);
+        border-radius: 4px;
+      }
+      .ant-btn-primary {
+        background: rgba(36,97,255,1);
+        border-radius: 4px;
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+      // biao组件css
+      .tabs_body_biao,
+      .tabs_body_biao_night {
+        padding: 24px 16px;
+
+        .title {
+          margin-bottom: 20px;
+          font-size: 32px;
+          font-family: Source Han Sans SC;
+          font-weight: bold;
+          color: rgba(27, 27, 27, 1);
+
+          .date {
+            line-height: 16px;
+
+            span {
+              font-size: 16px;
+              font-family: Source Han Sans SC;
+              font-weight: 500;
+            }
+          }
+        }
+
+        :global {
+          .ant-table-thead .ant-table-cell {
+            background: #e4e4e4;
+          }
+        }
+      }
+
+      // 黑夜模式样式覆盖
+      .tabs_body_biao_night {
+        h2 {
+          color: #fff !important;
+        }
+     
+        .title {
+          margin-bottom: 20px;
+          font-size: 32px;
+          font-family: Source Han Sans SC;
+          font-weight: bold;
+          span {
+            color: #fff !important;
+          }
+     
+          .date {
+            line-height: 16px;
+     
+            span {
+              font-size: 16px;
+              font-family: Source Han Sans SC;
+              font-weight: 500;
+            }
+          }
+        }
+
+        .row {
+          background-color: #151E2A;
+
+          :global {
+            & .ant-table-cell {
+              background-color: #151E2A;
+              border: 1px solid #3C424A;
+              color: #fff;
+              font-size: 16px;
+            }
+          }
+        }
+
+        .rows {
+          background-color: #212934;
+
+          :global {
+            & .ant-table-cell {
+              background-color: #212934;
+              border: 1px solid #3C424A;
+              color: #fff;
+              font-size: 16px;
+            }
+          }
+
+        }
+
+        :global {
+          .ant-table-thead .ant-table-cell {
+            background-color: #333F51;
+            color: #fff !important;
+            border: 1px solid #333F51;
+          }
+
+          .ant-table-tbody {
+
+            >tr:hover:not(.ant-table-expanded-row)>td,
+            .ant-table-row-hover,
+            .ant-table-row-hover>td {
+              background: inherit !important;
+            }
+          }
+
+          .ant-table-fixed {
+
+            .ant-table-row-hover,
+            .ant-table-row-hover>td {
+              background: inherit !important;
+            }
+          }
+
+          .ant-table-container {
+            border: 1px solid #3C424A !important;
+          }
+
+          .ant-table-tbody {
+            background-color: #17202C !important;
+          }
+        }
+
+      }

@@ -1,0 +1,97 @@
+.supply_search{
+  width: 352px;
+  background: var(--common-content-bg);
+  background-position-y: -6px;
+  background-size: cover;
+  // opacity: 0.95;
+  padding: 10px 10px 14px 10px;
+  :global{
+    .ant-form {
+      display: flex;
+      height: 56px;
+      .ant-form-item {
+        // flex: 1;
+        margin-right: 10px;
+        // &::after {
+        //   content: '公里';
+        //   position: relative;
+        //   top: -23px;
+        //   right: -111px;
+        //   font-size: 12px;
+        //   color: #909397;
+        // }
+        @media screen and (max-width: 1200px) {
+          .ant-form-item-label > label{
+            font-size: 12px!important;
+            margin-right: 5px!important;
+            white-space: nowrap;
+          }
+          .ant-form-item-label, .ant-form-item-control{
+            flex: 1;
+          }
+        }
+        .ant-form-item-label > label {
+          color: var(--word-color);
+          font-size: 14px;
+          margin-right: 10px;
+          margin-top: 2px;
+          &::before{
+            display: none;
+          }
+          &::after{
+            display: none;
+          }
+        }
+        .ant-input-number {
+          width: 98px;
+          height: 32px;
+          background: var(--ant-input-number--bg);
+          border:none;
+          // border: 1px solid;
+          // border-image: linear-gradient(106.31deg, rgba(3,240,255,0.46) 33.87247025966644%,rgba(3,240,255,0.44) 52.60416865348816%) 1 1;
+          border-radius: 4px;
+          border: 1px solid var(--ant-input-number--border);
+          .ant-input-number-handler-wrap {
+            display: none;
+          }
+          .ant-input-number-input-wrap {
+            position: relative;
+            &::after {
+              content: '公里';
+              position: absolute;
+              right: 6px;
+              bottom: 2px;
+              font-size: 12px;
+              color: #909397;
+            }
+          }
+          .ant-input-number-input {
+            width: 65px;
+            font-size: 24px;
+            font-family: JDZhengHT-EN;
+            font-weight: normal;
+            color: var(--word-color);
+            // text-shadow: 0 1px 2px rgba(0,0,0,1);
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.refresh{
+  position: absolute;
+  cursor: pointer;
+    top: 8px;
+    right: 12px;
+    img{
+      width: 13px;
+      height: 13px;
+      margin-right: 7px;
+    }
+    span{
+      color: var(--tabs_plan-back);
+      font-size: 14px;
+    }
+}

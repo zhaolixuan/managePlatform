@@ -1,0 +1,131 @@
+      // biao组件css
+      .tabs_body_biao,
+      .tabs_body_biao_night {
+        width: 100%;
+        height: 100%;
+        background:var(--common-content-bg) center/cover;
+        padding: 24px 16px;
+
+        .title {
+          margin-bottom: 20px;
+          font-size: 32px;
+          font-family: Source Han Sans SC;
+          font-weight: bold;
+          color:var(--word-color);
+
+          .date {
+            line-height: 16px;
+
+            span {
+              font-size: 16px;
+              font-family: Source Han Sans SC;
+              font-weight: 500;
+            }
+          }
+        }
+
+        :global {
+          .ant-table-thead .ant-table-cell {
+            background: #e4e4e4;
+          }
+        }
+      }
+
+      // 黑夜模式样式覆盖
+      .tabs_body_biao_night {
+        h2 {
+          color: var(--word-color)!important;
+        }
+     
+        .title {
+          margin-bottom: 20px;
+          font-size: 32px;
+          font-family: Source Han Sans SC;
+          font-weight: bold;
+          span {
+            color: var(--word-color)!important;
+          }
+     
+          .date {
+            line-height: 16px;
+     
+            span {
+              font-size: 16px;
+              font-family: Source Han Sans SC;
+              font-weight: 500;
+            }
+          }
+        }
+
+        .row {
+          background-color: var(--ant-table-cell-bg);
+     
+          :global {
+            & .ant-table-cell {
+              background-color: var(--ant-table-cell-bg);
+              border: 1px solid var(--ant-table-row-cross-color-bg);
+              color: var(--word-color);
+              font-size: 16px;
+            }
+          }
+        }
+     
+        .rows {
+          background-color: var(--ant-table-cell-bg);
+     
+          :global {
+            & .ant-table-cell {
+              background-color: var(--ant-table-cell-bg);
+              border: 1px solid var(--ant-table-row-cross-color-bg);
+              color: var(--word-color);
+              font-size: 16px;
+            }
+          }
+     
+        }
+
+        :global {
+          .ant-table-thead .ant-table-cell {
+            background-color: var(--ant-table-cell-bg) !important;
+            color: var(--word-color)!important;
+            border: 1px solid var(--ant-table-row-cross-color-bg);
+            // border-left: none;
+            // border-top: none;
+            font-size: 14px;
+            font-family: Source Han Sans CN;
+            font-weight: bold;
+          }
+
+          .ant-table.ant-table-bordered table thead > tr:not(:last-child) > th {
+            border: 1px solid var(--ant-table-row-cross-color-bg);
+          }
+     
+          .ant-table-tbody {
+     
+            >tr:hover:not(.ant-table-expanded-row)>td,
+            .ant-table-row-hover,
+            .ant-table-row-hover>td {
+              background: inherit !important;
+            }
+          }
+     
+          .ant-table-fixed {
+     
+            .ant-table-row-hover,
+            .ant-table-row-hover>td {
+              background: inherit !important;
+            }
+          }
+     
+          .ant-table-container {
+            border: 1px solid var(--ant-table-row-cross-color-bg)!important;
+          }
+     
+          .ant-table-tbody {
+            background-color: var(--ant-table-cell-bg) !important;
+          }
+        }
+        .down_btn {
+          margin: 10px;
+        }
+      }

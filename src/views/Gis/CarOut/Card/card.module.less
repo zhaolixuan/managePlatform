@@ -1,0 +1,41 @@
+.card {
+  pointer-events: auto;
+  width: 352px;
+  border-radius: 4px;
+  overflow: hidden;
+  // box-shadow: 4px 4px 16px rgba(0, 20, 38, 0.3);
+  .cardHead {
+    width: 352px;
+    height: 32px;
+    background: var(--common-head-bg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    .cardTitle {
+      padding: 9px 0 9px 44px;
+      font-size: 14px;
+      line-height: 1;
+      font-family: Source Han Sans CN;
+      font-weight: bold;
+      color: var(--card-title-color);
+      text-shadow: 0 4px 4px rgba(3, 240, 255, 0.25);
+    }
+    .cardUnit {
+      padding: 10px 16px 8px;
+      font-size: 14px;
+      line-height: 1;
+      font-family: Source Han Sans CN;
+      font-weight: normal;
+      color: rgba(255,255,255,0.6);
+    }
+  }
+  .cardContent {
+    width: 352px;
+    min-height: 80px;
+    height: calc(100% - 32px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: var(--common-carOut-bg);
+    background-size: cover;
+  }
+}

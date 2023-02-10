@@ -1,0 +1,112 @@
+.toolWrapper{
+  position: absolute;
+  z-index: 33;
+  right: 393px;
+  bottom: 20px;
+  padding: 16px;
+
+  .legendWrapper{
+    width: 28px;
+    height: 28px;
+    margin-top:8px;
+    background: var(--dimensionTool-bgm);
+    background-size: 100% 100%;
+    cursor: pointer;
+
+    .bg{
+      background:var(--checkbox-btn-bg);
+      background-size: 100%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .dimensionWrapper{
+    background: var(--dimensionTool-bgm);
+    background-size: 100% 100%;
+    font-weight: 500;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    margin-top:8px;
+    .dimension2D{
+      background:var(--dimension-2D-btn-bg);
+      background-size: 100%;
+      width: 100%;
+      height: 100%;
+    }
+    .dimension3D{
+      background:var(--dimension-3D-btn-bg);
+      background-size: 100%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .zoomWrapper{
+    background: var(--zoom-map-tool-bgn);
+    background-size: 100% 100%;
+    width: 28px;
+    height: 67px;
+    margin-top:8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .operator{
+      color: var(--icon-color);
+      font-weight: 700;
+      font-size: 24px;
+      flex:1;
+      text-align: center;
+      cursor:pointer;
+    }
+    .splitLine{
+      width: 18px;
+      margin: 0 auto;
+      height: 1px;
+      background: rgba(216,216,216,0.2);
+    }
+  }
+
+  .originWrapper{
+    background: var(--dimensionTool-bgm);
+    background-size: 100% 100% ;
+    width: 28px;
+    height: 28px;
+    opacity: 0.7;
+    cursor: pointer;
+    z-index: 10000;
+    margin-top:8px;
+    
+    .bg{
+      background:var(--orgin-btn-bg);
+      background-size: 100%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .themeWrapper{
+    background: var(--dimensionTool-bgm);
+    background-size: 100% 100%;
+    width: 28px;
+    height: 28px;
+    opacity: 0.7;
+    margin-top:8px;
+    z-index: 10000;
+    cursor: pointer;
+    .bg{
+      background:var(--theme-btn-bg);
+      background-size: 100%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.right386{
+  right: 386px;
+}
+.right22{
+  right: 22px;
+}

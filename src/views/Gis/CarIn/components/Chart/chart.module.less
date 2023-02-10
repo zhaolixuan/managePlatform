@@ -1,0 +1,47 @@
+.chart {
+  pointer-events: auto;
+  width: 352px;
+  height: 228px;
+  height: max-content;
+  background: var(--common-content-bg);
+  background-size: 100% 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  // // opacity: 0.95;
+  .chartHead {
+    height: 32px;
+    background: var(--common-head-bg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    .chartTitle {
+      padding: 9px 0 9px 44px;
+      font-size: 14px;
+      line-height: 1;
+      font-family: Source Han Sans CN;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 1);
+      text-shadow: 0 4px 4px rgba(3, 240, 255, 0.25);
+    }
+    .chartUnit {
+      padding: 10px 0 8px;
+      font-size: 14px;
+      line-height: 1;
+      font-family: Source Han Sans CN;
+      font-weight: normal;
+      color: rgba(255,255,255,0.6);
+    }
+  }
+}
+.chartContent{
+  padding:0 0 16px;
+}
+.myChart{
+  width: 352px;
+  height: 226px;
+}
+:global {
+  .ant-empty-description{
+    color: var(--word-color)!important;
+  }
+}

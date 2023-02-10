@@ -1,0 +1,39 @@
+/* normal reset */
+html{text-size-adjust:100%;}
+html,body,div,h1,h2,h3,h4,h5,h6,dl,dt,dd,ol,ul,li,p,article,aside,canvas,header,footer,section,video,audio{margin:0;padding:0;border:0;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;font-weight:normal;}
+li{list-style:none;}
+a{text-decoration:none;cursor:pointer;};
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;outline:none;}
+/*---鼠标点击滚动条显示样式--*/
+::-webkit-scrollbar-thumb:hover{
+  height: 50px;
+  border-radius: 4px;
+}
+
+/*---滚动条大小--*/
+::-webkit-scrollbar{
+  width: 2px;
+  height: 8px;
+}
+
+/*---滚动框背景样式--*/
+::-webkit-scrollbar-track-piece{
+  -webkit-border-radius: 0;
+}
+
+ /* 滚动条的滑轨背景颜色 */ 
+::-webkit-scrollbar-track {
+  background-color: var(--ant-table-row-cross-color-bg);
+  // opacity: 40;
+}
+ /* 滑块颜色 */ 
+::-webkit-scrollbar-thumb {
+  background-color: var(--webkit-scrollbar-thumb-bg);
+  // opacity: 30;
+}
+ /* 滚动条滑轨 */
+::-webkit-scrollbar-button { display: none;  }
+ /* 横向滚动条和纵向滚动条相交处尖角 */
+::-webkit-scrollbar-corner { display: none; }
+

@@ -1,0 +1,172 @@
+/* 浅色主题 */
+:root[theme='white'] {
+
+    --common-content-bg: url(../../../assets/images/white/content.png) no-repeat;
+    --common-carOut-bg: url(../../../assets/images/white/content2.png) no-repeat;
+    --common-head-bg: url(../../../assets/images/white/head.png) no-repeat;
+    --popup-complex-head-bg: url(../../../assets/images/white/popup-complex-head.png) no-repeat;
+    --theme-color: #0047FF;
+    --word-color: #333333;
+    --word-color1: #000000;
+    --word-color2: #646464;
+    --word-color3: #323232;
+    --icon-color: #2489FF;
+    --num-color: #ffffff;
+    --tabs_plan-back: #3372FFFF;
+    --img-info-bg: #EDEDED;
+    --img-info-color: #1B1B1B;
+    --common-box-shadow: 0px 4px 10px rgba(0, 20, 38, 0.15);
+    --common-backdrop-filter: blur(32px);
+
+    /* select组件 */
+    --option-bg: #2864FF;
+    --option-active-bg: rgba(3, 240, 255, 0.1);
+    --option-active-font: #03f0ff;
+    --select-hover-bg: #D8ECFF;
+    --select-dropdown-bg:linear-gradient(180deg, rgba(255,255,255,0.9) 0%,rgba(224,238,255,0.63) 100%),linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1));
+    --select-dropdown-hover: rgba(216,236,255,1);
+    /* card组件 */
+    --card-title-text-shadow: 0 4px 4px rgba(3, 240, 255, 0.25);
+    --card-title-color: rgba(255, 255, 255, 1);
+
+
+    /* input组件 */
+    --input-bg: linear-gradient(180deg, rgba(255,255,255,0.9) 0%,rgba(224,238,255,0.9) 100%),linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8));
+    --input-color: #333;
+
+
+    /* header */
+    --header-logo-bg: url(../../../assets/images/white/header-left.png) no-repeat;
+    --header-menu-bg: url(../../../assets/images/white/header-menu.png);
+    --header-right-bg: url(../../../assets/images/white/header-right.png) no-repeat;
+
+    /* checkbox组件 */
+    --checkbox-bg: url(../../../assets/images/white/checkbox-bg.png) no-repeat;
+    /* --checkbox-bg: linear-gradient(180deg, rgba(70,220,255,0.15) 0%,rgba(255,255,255,0) 100%); */
+    --ant-checkbox-inner-color: rgba(0, 117, 255, 1);
+    --ant-checkbox-checked-color: white;
+    --set-btn-bg-img: url(../../../assets/images/white/checkbox_config.png) no-repeat;
+    --set-bg-img: url(../../../assets/images/white/checkbox_extend.png) no-repeat;
+
+    /* table */
+    /* 头部背景色、字体颜色*/
+    --ant-table-thead--bg: #E0E2E1;
+    --ant-table-thead--color: #3C3C3C;
+    /* 默认行背景色 */
+    --ant-table-cell-bg: #FFFFFF;
+    /* 隔行背景色 */
+    --ant-table-row-cross-color-bg: #EEEFF1;
+    /* 选中行背景色 */
+    --ant-table-cell-active-bg: rgba(50, 110, 255, 0.1);
+    /* 选中左侧边框 */
+    --table-cell-border-left-color: #326EFF;
+    /* 表格字体颜色 */
+    --ant-table-cell-color: #1B1B1B;
+    /* 滚动条颜色 */
+    --webkit-scrollbar-thumb-bg: rgba(0, 0, 0, .3);
+    /* 保供场所八大批发市场滚动条颜色 */
+    --webkit-scrollbar-thumb-bg-site: #DFDFDF;
+    /* 表格内进度条颜色 */
+    --ant-progress-inner--bg: #B1E2FFFF;
+    --ant-progress-steps--bg: rgba(27, 105, 105, 0.33);
+    --ant-progress-bg: linear-gradient(270deg, rgba(70, 220, 255, 1) 0%, rgba(50, 110, 255, 1) 100%);
+
+    /* 一图Table */
+    --ant-table-row-bg: #FFFFFF;
+    --ant-table-rows-bg: #F2F2F2;
+
+
+
+    /* button */
+    --ant-btn-primary-bg: linear-gradient(180deg, rgba(0, 71, 255, 1) 0%, rgba(90, 136, 255, 1) 100%);
+    --ant-btn-primary-border-image: linear-gradient(95.47deg, rgba(3, 240, 255, 0.19) 0%, rgba(3, 240, 255, 0.46) 33.87247026%, rgba(3, 240, 255, 0.44) 52.60416865%, rgba(3, 240, 255, 0.19) 100%) 0.5 0.5;
+    --ant-btn-primary-active-border-image: linear-gradient(270deg, rgba(70, 218, 255, 1) 0%, rgba(130, 165, 255, 1) 100%) 1 1;
+    --ant-btn-primary-hover-border-image: linear-gradient(270deg, rgba(70, 218, 255, 1) 0%, rgba(130, 165, 255, 1) 100%) 1 1;
+    --img-btn-hover-bg: linear-gradient(270deg, rgba(70, 218, 255, 1) 0%, rgba(130, 165, 255, 1) 100%) 1 1;
+    --ant-btn-active-bg: #3372FF;
+    --ant-btn-noactive-bg: #00AEF3;
+    --btn-hover: linear-gradient(180deg, rgba(6, 126, 247, 1) 0%, rgba(20, 228, 232, 1) 100%);
+
+    --total-image: url(../../../assets/images/white/total.png) no-repeat;
+    --carIn_summary-bg: url(../../../assets/images/white/carIn_summary.png);
+    /* 翻牌器背景图 */
+    --user-card-bg: url(../../../assets/images/white/card_bg.png);
+
+    /* 色系按钮 */
+    --theme-btn-bg: url(../../../assets/images/white/theme.png) no-repeat;
+    /* 2D3D背景图 */
+    --dimension-2D-btn-bg: url(../../../assets/images/white/dimension2D.png) no-repeat;
+    --dimension-3D-btn-bg: url(../../../assets/images/white/dimension3D.png) no-repeat;
+    --dimensionTool-bgm: url(~@/assets/images/white/dimension-bg.png) no-repeat;
+    --zoom-map-tool-bgn: url(../../../assets/images/white/zoom-map-tool.png) no-repeat;
+    --orgin-btn-bg: url(~@/assets/images/white/backTo-origin.png) no-repeat;
+    --checkbox-btn-bg: url(~@/assets/images/white/checkbox-map-icon.png) no-repeat;
+
+    --pop-area-red: url(../../../assets/images/white/area-1.png) no-repeat;
+    --pop-area-red-color: #FF4545;
+
+    --pop-area-yellow: url(../../../assets/images/white/area-2.png) no-repeat;
+    --pop-area-yellow-color: #FFED4C;
+
+    --pop-area-blue: url(../../../assets/images/white/area-3.png) no-repeat;
+    --pop-area-blue-color: #4CBFFF;
+
+    --pop-area-purple: url(../../../assets/images/white/area-4.png) no-repeat;
+    --pop-area-purple-color: #FF00D6;
+
+    --staff-popup-wrapper-bgm: url(../../../assets/images/white/staff-popup-bg.png) no-repeat;
+
+    /* 左右收起栏 */
+    --left-btn: url(../../../assets/images/white/left_normal.png) no-repeat;
+    --right-btn: url(../../../assets/images/white/left_active.png) no-repeat;
+
+    /* --point_name-bgm: url(../../../assets/images/white/text_bg.png) no-repeat; */
+    --point_name-bgm: rgba(255, 248, 224, 1);
+    --point_name-border: 1px solid rgba(255, 210, 40, 1);
+    --more_btn-bgm: url(../../../assets/images/white/btn.png) no-repeat;
+    /* --bg_btn-bgm: url(../../../assets/images/white/baogong-btn.png) no-repeat; */
+
+    --place_num_list-bg: url(../../../assets/images/white/place_num_list.png)  no-repeat;
+    --imageInfo-bg: #ECECEC;
+    --imageInfo-bgm: url(../../../assets/images/white/locate.png);
+    /* 供保资源 */
+    --ant-input-number--bg: rgba(101, 145, 241, 0.25);
+    --ant-input-number--border: rgba(51, 114, 255, 1);
+    --tab-active-bg: url(../../../assets/images/white/tab_active.png) no-repeat;
+    --tabs_top-bg: url(../../../assets/images/white/biao_bg.png) no-repeat center/cover;
+    --margin-bottom-12: 12px;
+
+    --icon-up: url(../../../assets/images/white/up.png);
+    --icon-down: url(../../../assets/images/white/down.png);
+
+    /* 吸顶更多按钮 */
+    --bottom-btn-bgm: url(../../../assets/images/white/bottom-btn.png) no-repeat;
+
+    --control-bg: url(../../../assets/images/white/control.png) no-repeat;
+    --life-bg: url(../../../assets/images/white/life.png) no-repeat;
+    --send-bg: url(../../../assets/images/white/send.png) no-repeat;
+
+    --active-control-bg: url(../../../assets/images/white/controlA.png) no-repeat;
+    --active-life-bg: url(../../../assets/images/white/lifeA.png) no-repeat;
+    --active-send-bg: url(../../../assets/images/white/sendA.png) no-repeat;
+
+    /* 左右过度背景图 */
+    --excess-left-bg: url(../../../assets/images/white/excess-left.png) no-repeat;
+    --excess-right-bg: url(../../../assets/images/white/excess-right.png) no-repeat;
+
+    /* scale比例尺文字的颜色 */
+    --scale-num-color: grey;
+
+    /* 京外弹出层的header背景 */
+    --carout-prop-bg: url(../../../assets/images/white/carout-prop-bg.png) no-repeat;
+
+    /* 调度平台管理后台 */
+    --manage-header-bg:url(../../../assets/images/dark/manage-header-bg.png) no-repeat;
+    --manage-header-color:#fff;
+    --manage-menu-bg:url(../../../assets/images/dark/manage-sub-bg.png) no-repeat;
+    --manage-menu-color:rgba(255,255,255,0.85);
+    --manage-menu-sub-color:rgba(255,255,255,0.65);
+    --manage-menu-sub-bg:rgba(0,0,0,.4);
+    --manage-menu-sub-select-bg:linear-gradient(90deg, rgba(44,104,255,1) 0%,rgba(44,104,255,0.4) 100%);
+    
+}

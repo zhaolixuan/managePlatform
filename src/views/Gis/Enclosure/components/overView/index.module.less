@@ -1,0 +1,123 @@
+.overViewBox{
+  width: 370px;
+}
+.height440{
+  height: 440px;
+}
+.height520{
+  height: 520px;
+}
+.height705{
+  height: 705px;
+}
+.boxShadow{
+  box-shadow: var(--common-box-shadow);
+  backdrop-filter: var(--common-backdrop-filter);
+  margin: 0 12px 12px;
+}
+.point_name {
+  width: 317px;
+  padding: 8px;
+  border: var(--point_name-border);
+  background: var(--point_name-bgm);
+  border-image: var(--point_name-border-image);
+  border-radius: 4px;
+  // background-size: 100% 100%;
+  margin: auto;
+  margin-top: 16px;
+  overflow: hidden;
+  div{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-family: Source Han Sans CN;
+    font-weight: normal;
+    color: var(--word-color);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+      width: 0;
+    }
+  }
+}
+.card_content{
+  pointer-events: auto;
+  padding: 16px 19px 52px;
+
+  .item{
+    min-height: 46px;
+    background: var(--user-card-bg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    .title{
+      padding-left:16px;
+      padding-top:12px;
+      font-size: 14px;
+      font-family: Source Han Sans CN;
+      font-weight: bold;
+      color: white;
+      text-shadow: 0 4px 4px rgba(3,240,255,0.25);
+    }
+    .desc{
+      font-size: 24px;
+      font-family: JDZhengHT-EN;
+      font-weight: normal;
+      color: white;
+      // text-shadow: 0 1px 2px rgba(0,0,0,1);
+      padding-right:16px;
+      display: flex;
+      .num {
+        max-width: 190px;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: flex;
+        flex-direction: column-reverse;
+        &:hover {
+          // max-width: 200px;
+          // overflow: visible;
+          white-space: pre-wrap;
+        }
+      }
+      .unit{
+        font-size: 14px;
+        font-family: Source Han Sans CN;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 0 5px 2px;
+      }
+    }
+    & + .item{
+      margin-top: 10px;
+    }
+  }
+}
+
+.no_data {
+  text-align: center;
+  color: #fff
+}
+.more_btn {
+  width: 100%;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  background: var(--bottom-btn-bgm);
+  background-size: cover;
+  color: var(--tabs_plan-back);
+  margin-top: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+}
+

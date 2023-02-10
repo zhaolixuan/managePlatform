@@ -1,0 +1,131 @@
+{
+  "name": "bj_necessaryDispatch",
+  "version": "1.0.0",
+  "description": "Webpack5 微服务基础框架",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "uc-react-scripts  dev -e development ",
+    "build": "uc-react-scripts build -e production",
+    "build:local": "uc-react-scripts build -e local",
+    "build:test": "uc-react-scripts build -e test",
+    "build:pre": "uc-react-scripts build -e pre",
+    "eslint": "eslint src",
+    "eslint:fix": "yarn run eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "someone",
+  "license": "ISC",
+  "browser": {
+    "crypto": false
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.1.0",
+    "@babel/runtime": "^7.13.4",
+    "@babel/runtime-corejs3": "^7.17.9",
+    "@jd/find-react": "^1.0.7",
+    "@jd/just-map": "^0.3.21",
+    "@jd/lcdp-react-render": "1.0.1-alpha.1",
+    "@jd/mapbox-react": "0.4.2",
+    "@loadable/component": "^5.12.0",
+    "@mapbox/mapbox-gl-language": "^1.0.0",
+    "@turf/circle": "^6.5.0",
+    "@turf/distance": "^6.5.0",
+    "@turf/helpers": "^6.5.0",
+    "@turf/turf": "^6.5.0",
+    "@tweenjs/tween.js": "^18.6.4",
+    "axios": "^0.19.2",
+    "babel-preset-react-app": "^10.0.0",
+    "classnames": "^2.2.6",
+    "crypto-browserify": "^3.12.0",
+    "crypto-js": "^4.0.0",
+    "dayjs": "^1.9.6",
+    "echarts": "^4.8.0",
+    "lodash": "^4.17.20",
+    "mapbox-gl": "^1.13.0",
+    "mobx": "^4.15.4",
+    "mobx-react": "^6.1.5",
+    "moment": "^2.29.3",
+    "path-to-regexp": "^6.1.0",
+    "postcss-px2rem": "^0.3.0",
+    "postcss-px2rem-exclude": "0.0.6",
+    "qs": "^6.9.4",
+    "react": "^16.13.1",
+    "react-app-rewire-postcss": "^3.0.2",
+    "react-dom": "^16.13.1",
+    "react-file-viewer": "^1.2.1",
+    "react-json-view": "^1.21.3",
+    "react-pdf-js": "^5.1.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^5.0.0",
+    "three": "^0.138.3",
+    "uc-fun": "^0.4.3",
+    "video.js": "^7.18.1",
+    "xgplayer": "^2.31.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/plugin-proposal-decorators": "^7.13.0",
+    "@babel/plugin-transform-react-constant-elements": "^7.12.13",
+    "@babel/plugin-transform-react-inline-elements": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.13.4",
+    "@babel/preset-env": "^7.13.0",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "@jd/rpd-render": "0.0.54-alpha.3",
+    "@jkyu/uc-react-scripts": "^1.1.0",
+    "@types/three": "^0.140.0",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-react-css-modules": "^5.2.6",
+    "css-loader": "^6.7.1",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.1",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "http-proxy-middleware": "^2.0.1",
+    "mockjs": "^1.1.0",
+    "postcss": "^8.2.10",
+    "prettier": "^2.4.1",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.4.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dsl": {
+    "directory": "src/lcdp"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  }
+}

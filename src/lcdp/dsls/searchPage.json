@@ -1,0 +1,1040 @@
+{
+  "shareData": [
+    {
+      "key": "formData_search",
+      "default": "{\n}"
+    },
+    {
+      "key": "pagination",
+      "default": "{\n  \"total\": 0,\n  \"current\": 1,\n  \"size\": 10\n}"
+    },
+    {
+      "key": "tableData",
+      "default": "[\r\n  {\r\n    \"id\": 8,\r\n    \"initiatorDataId\": \"7\",\r\n    \"communityCode\": \"慧智张\",\r\n    \"residentName\": \"张智慧\",\r\n    \"citizenshipCode\": null,\r\n    \"idcardZjlx\": \"其他--990\",\r\n    \"idcardFace\": \"\",\r\n    \"idcardZjhm\": \"130283193213\",\r\n    \"phoneNum\": \"1222\",\r\n    \"jzdAddress\": \"312321\",\r\n    \"remake\": \"号楼--2\",\r\n    \"memo\": \"备注\",\r\n    \"deleted\": null,\r\n    \"creator\": null,\r\n    \"modifier\": null,\r\n    \"createDate\": 1635448880000,\r\n    \"modifieDate\": 1635448880000,\r\n    \"communityName\": null\r\n  },\r\n  {\r\n    \"id\": 9,\r\n    \"initiatorDataId\": \"8\",\r\n    \"communityCode\": \"xq-4\",\r\n    \"residentName\": \"吕布\",\r\n    \"citizenshipCode\": null,\r\n    \"idcardZjlx\": \"居民身份证--112\",\r\n    \"idcardFace\": \"\",\r\n    \"idcardZjhm\": \"13028319121321\",\r\n    \"phoneNum\": \"13800138000\",\r\n    \"jzdAddress\": \"居住地址*\",\r\n    \"remake\": \"号--4\",\r\n    \"memo\": \"备注\",\r\n    \"deleted\": null,\r\n    \"creator\": null,\r\n    \"modifier\": null,\r\n    \"createDate\": 1635448880000,\r\n    \"modifieDate\": 1635448880000,\r\n    \"communityName\": null\r\n  },\r\n  {\r\n    \"id\": 10,\r\n    \"initiatorDataId\": \"9\",\r\n    \"communityCode\": \"xq-5\",\r\n    \"residentName\": \"诸葛亮\",\r\n    \"citizenshipCode\": null,\r\n    \"idcardZjlx\": \"居民身份证--113\",\r\n    \"idcardFace\": \"\",\r\n    \"idcardZjhm\": \"1302831213219\",\r\n    \"phoneNum\": \"13800138000\",\r\n    \"jzdAddress\": \"居住地址*\",\r\n    \"remake\": \"号--5\",\r\n    \"memo\": \"备注\",\r\n    \"deleted\": null,\r\n    \"creator\": null,\r\n    \"modifier\": null,\r\n    \"createDate\": 1635448880000,\r\n    \"modifieDate\": 1635448880000,\r\n    \"communityName\": null\r\n  },\r\n  {\r\n    \"id\": 22,\r\n    \"initiatorDataId\": \"2\",\r\n    \"communityCode\": \"BD3DB9F4931D535E5087F0E33F1170E5\",\r\n    \"residentName\": \"出发点\",\r\n    \"citizenshipCode\": \"中国\",\r\n    \"idcardZjlx\": \"111\",\r\n    \"idcardFace\": \"\",\r\n    \"idcardZjhm\": \"533023199409270746\",\r\n    \"phoneNum\": \"13433333335\",\r\n    \"jzdAddress\": \"北京市/昌平区/北七家镇/空/空/宏福苑/1号楼/1单元/1层/102室/空/119.569812/39.458521\",\r\n    \"remake\": null,\r\n    \"memo\": null,\r\n    \"deleted\": null,\r\n    \"creator\": null,\r\n    \"modifier\": null,\r\n    \"createDate\": 1636664594000,\r\n    \"modifieDate\": 1636664594000,\r\n    \"communityName\": \"宏福苑\"\r\n  },\r\n  {\r\n    \"id\": 23,\r\n    \"initiatorDataId\": \"0c2f7b28da5640debf4ff6c5deb2ec24E8C7EA1C12B348993696BDDA44BFED62\",\r\n    \"communityCode\": \"E8C7EA1C12B348993696BDDA44BFED62\",\r\n    \"residentName\": \"居民\",\r\n    \"citizenshipCode\": \"中国\",\r\n    \"idcardZjlx\": \"111\",\r\n    \"idcardFace\": \"\",\r\n    \"idcardZjhm\": \"XI3HCf3xa4D9u\",\r\n    \"phoneNum\": \"13433333336\",\r\n    \"jzdAddress\": \"北京市/大兴区/测试地区1/空/空/测试区/1栋/1单元/层/102室/空/空/空\",\r\n    \"remake\": null,\r\n    \"memo\": null,\r\n    \"deleted\": null,\r\n    \"creator\": null,\r\n    \"modifier\": null,\r\n    \"createDate\": 1636677749000,\r\n    \"modifieDate\": 1636677749000,\r\n    \"communityName\": null\r\n  },\r\n  {\r\n    \"id\": 24,\r\n    \"initiatorDataId\": \"fw_resident_618e254a0b3d181a024ec139\",\r\n    \"communityCode\": \"11112\",\r\n    \"residentName\": \"于函\",\r\n    \"citizenshipCode\": null,\r\n    \"idcardZjlx\": \"居民身份证--111\",\r\n    \"idcardFace\": \"\",\r\n    \"idcardZjhm\": \"360734197910113326\",\r\n    \"phoneNum\": \"1111\",\r\n    \"jzdAddress\": \"111\",\r\n    \"remake\": \"111\",\r\n    \"memo\": \"111\",\r\n    \"deleted\": null,\r\n    \"creator\": null,\r\n    \"modifier\": null,\r\n    \"createDate\": 1636756011000,\r\n    \"modifieDate\": 1636756011000,\r\n    \"communityName\": \"环印城\"\r\n  },\r\n  {\r\n    \"id\": 25,\r\n    \"initiatorDataId\": \"fw_resident_6194a1e2b7af1aeb1ce803f6\",\r\n    \"communityCode\": \"1101080000000\",\r\n    \"residentName\": \"潘凯文\",\r\n    \"citizenshipCode\": \"中国\",\r\n    \"idcardZjlx\": \"111\",\r\n    \"idcardFace\": \"\",\r\n    \"idcardZjhm\": \"130131197311212010\",\r\n    \"phoneNum\": \"15111212010\",\r\n    \"jzdAddress\": \"北京市/海淀区/羊坊店街道/空/空/T小区/1号楼/1单元/21层/2121室/空/空/空\",\r\n    \"remake\": null,\r\n    \"memo\": null,\r\n    \"deleted\": null,\r\n    \"creator\": null,\r\n    \"modifier\": null,\r\n    \"createDate\": 1637181123000,\r\n    \"modifieDate\": 1637181123000,\r\n    \"communityName\": \"T小区\"\r\n  },\r\n  {\r\n    \"id\": 27,\r\n    \"initiatorDataId\": \"10E83B0ECDC04FA680FE146571C8532B\",\r\n    \"communityCode\": \"1101080000000\",\r\n    \"residentName\": \"张月\",\r\n    \"citizenshipCode\": \"中国\",\r\n    \"idcardZjlx\": \"111\",\r\n    \"idcardFace\": \"\",\r\n    \"idcardZjhm\": \"110101195605044031\",\r\n    \"phoneNum\": \"15910718295\",\r\n    \"jzdAddress\": \"北京市/海淀区/羊坊店街道/空/空/T小区/13号楼/1单元/6层/602室/B876C2A01A73485E9B3D96E0CC71AC01/空/空\",\r\n    \"remake\": null,\r\n    \"memo\": null,\r\n    \"deleted\": null,\r\n    \"creator\": null,\r\n    \"modifier\": null,\r\n    \"createDate\": 1638200950000,\r\n    \"modifieDate\": 1638200950000,\r\n    \"communityName\": \"T小区\"\r\n  },\r\n  {\r\n    \"id\": 28,\r\n    \"initiatorDataId\": \"202111291608ID02\",\r\n    \"communityCode\": \"1101080000000\",\r\n    \"residentName\": \"刘新星\",\r\n    \"citizenshipCode\": \"中国\",\r\n    \"idcardZjlx\": \"111\",\r\n    \"idcardFace\": \"\",\r\n    \"idcardZjhm\": \"430223199511113813\",\r\n    \"phoneNum\": \"17612345678\",\r\n    \"jzdAddress\": \"北京市/海淀区/羊坊店街道/空/空/T小区/空/空/空/空//空/东门向东50米\",\r\n    \"remake\": null,\r\n    \"memo\": null,\r\n    \"deleted\": null,\r\n    \"creator\": null,\r\n    \"modifier\": null,\r\n    \"createDate\": 1638223885000,\r\n    \"modifieDate\": 1638223885000,\r\n    \"communityName\": \"T小区\"\r\n  },\r\n  {\r\n    \"id\": 29,\r\n    \"initiatorDataId\": \"21\",\r\n    \"communityCode\": \"BD3DB9F4931D535E5087F0E33F1170E5\",\r\n    \"residentName\": \"王二麻子2\",\r\n    \"citizenshipCode\": \"中国\",\r\n    \"idcardZjlx\": \"111\",\r\n    \"idcardFace\": \"\",\r\n    \"idcardZjhm\": \"130682199309173194\",\r\n    \"phoneNum\": \"15203365111\",\r\n    \"jzdAddress\": \"北京市/昌平区/北七家镇/空/空/宏福苑/1号楼/1单元/1层/102室/空/119.569812/39.458521\",\r\n    \"remake\": null,\r\n    \"memo\": null,\r\n    \"deleted\": null,\r\n    \"creator\": null,\r\n    \"modifier\": null,\r\n    \"createDate\": 1638320885000,\r\n    \"modifieDate\": 1638320885000,\r\n    \"communityName\": \"宏福苑\"\r\n  }\r\n]"
+    },
+    {
+      "key": "dataList",
+      "default": "[]"
+    },
+    {
+      "key": "currentPage",
+      "description": "当前页码",
+      "default": "1"
+    },
+    {
+      "key": "pageSize",
+      "description": "每页条数",
+      "default": "2"
+    },
+    {
+      "key": "type",
+      "description": "人员类别",
+      "default": "[\n  {\n    \"value\": \"电商物流\",\n    \"label\": \"电商物流\"\n  },\n  {\n    \"value\": \"外卖\",\n    \"label\": \"外卖\"\n  },\n  {\n    \"value\": \"快递\",\n    \"label\": \"快递\"\n  },\n  {\n    \"value\": \"超市配送\",\n    \"label\": \"超市配送\"\n  },\n  {\n    \"value\": \"货运司机\",\n    \"label\": \"货运司机\"\n  },\n  {\n    \"value\": \"即时配送\",\n    \"label\": \"即时配送\"\n  },\n  {\n    \"value\": \"理货员\",\n    \"label\": \"理货员\"\n  },\n  {\n    \"value\": \"配送员\",\n    \"label\": \"配送员\"\n  },\n  {\n    \"value\": \"收银员\",\n    \"label\": \"收银员\"\n  }\n]"
+    },
+    {
+      "key": "area",
+      "description": "所在行政区",
+      "default": "[\n  {\n    \"value\": \"东城区\",\n    \"label\": \"东城区\"\n  },\n  {\n    \"value\": \"西城区\",\n    \"label\": \"西城区\"\n  },\n  {\n    \"value\": \"朝阳区\",\n    \"label\": \"朝阳区\"\n  },\n  {\n    \"value\": \"丰台区\",\n    \"label\": \"丰台区\"\n  },\n  {\n    \"value\": \"石景山区\",\n    \"label\": \"石景山区\"\n  },\n  {\n    \"value\": \"海淀区\",\n    \"label\": \"海淀区\"\n  },\n  {\n    \"value\": \"门头沟区\",\n    \"label\": \"门头沟区\"\n  },\n  {\n    \"value\": \"房山区\",\n    \"label\": \"房山区\"\n  },\n  {\n    \"value\": \"大兴区\",\n    \"label\": \"大兴区\"\n  },\n  {\n    \"value\": \"通州区\",\n    \"label\": \"通州区\"\n  },\n  {\n    \"value\": \"顺义区\",\n    \"label\": \"顺义区\"\n  },\n  {\n    \"value\": \"昌平区\",\n    \"label\": \"昌平区\"\n  },\n  {\n    \"value\": \"怀柔区\",\n    \"label\": \"怀柔区\"\n  },\n  {\n    \"value\": \"平谷区\",\n    \"label\": \"平谷区\"\n  },\n  {\n    \"value\": \"密云区\",\n    \"label\": \"密云区\"\n  },\n  {\n    \"value\": \"延庆区\",\n    \"label\": \"延庆区\"\n  }\n]"
+    },
+    {
+      "key": "status",
+      "description": "状态",
+      "default": "[\n  {\n    \"value\": \"正常\",\n    \"label\": \"正常\"\n  },\n  {\n    \"value\": \"隔离\",\n    \"label\": \"隔离\"\n  },\n  {\n    \"value\": \"弹窗\",\n    \"label\": \"弹窗\"\n  }\n]"
+    }
+  ],
+  "apis": [
+    {
+      "name": "dataListApi"
+    }
+  ],
+  "apiConfigs": [
+    {
+      "name": "dataListApi",
+      "url": "/icity-support-screen/personnel/queryStaffListPage",
+      "method": "POST",
+      "transform": "",
+      "isShareData": false
+    }
+  ],
+  "action": {
+    "lifecycle": {
+      "mounted": {
+        "actions": [
+          {
+            "type": "function",
+            "handler": "${async function Foo_fKfP6n(){ const res = await $.shareData.dataListApiAction({\n  \"current\": 1,\n  \"size\": 10,\n})\nif(res){\n  const { total, current, size, guaranteeList} = res;\n  $.shareData.dataListAction(guaranteeList)\n  $.shareData.paginationAction({\n    total, current: 1, size\n  })\n}      }}"
+          }
+        ]
+      }
+    }
+  },
+  "attrs": {
+    "style": {
+      "display": "block",
+      "background": "#F9FBFE"
+    }
+  },
+  "components": [
+    {
+      "componentType": "custom",
+      "id": "Form-X8x3Gi",
+      "componentName": "Form",
+      "attrs": {
+        "style": {
+          "background": "rgba(255,255,255,1)",
+          "border-radius": "4px",
+          "box-shadow": "0 1px 4px 0 rgba(0,0,0,0.02), 0 2px 12px 0 rgba(0,0,0,0.02)",
+          "padding-top": "20px",
+          "padding-right": "20px",
+          "padding-bottom": "20px",
+          "padding-left": "20px"
+        }
+      },
+      "props": {
+        "layout": "horizontal",
+        "labelCol": {
+          "span": 7
+        }
+      },
+      "children": [
+        {
+          "componentType": "custom",
+          "componentName": "Row",
+          "props": {
+            "gutter": [
+              40
+            ]
+          },
+          "children": [
+            {
+              "componentType": "custom",
+              "componentName": "Col",
+              "attrs": {
+                "style": {
+                  
+                }
+              },
+              "props": {
+                "span": 8
+              },
+              "children": {
+                "componentType": "custom",
+                "componentName": "Form.Item",
+                "props": {
+                  "label": "企业名称",
+                  "name": "businessName",
+                  "validateFirst": true,
+                  "rules": []
+                },
+                "children": {
+                  "componentType": "custom",
+                  "componentName": "Input",
+                  "version": "0.0.1",
+                  "placeholder": "请输入",
+                  "required": false,
+                  "id": "Input-5NATY6",
+                  "props": {
+                    "allowClear": true
+                  }
+                },
+                "id": "Form.Item-bAHrhZ"
+              },
+              "id": "Col-QKdE6Q",
+              "chosen": false
+            },
+            {
+              "componentType": "custom",
+              "componentName": "Col",
+              "attrs": {
+                "style": {
+                  
+                }
+              },
+              "props": {
+                "span": 8
+              },
+              "children": {
+                "componentType": "custom",
+                "componentName": "Form.Item",
+                "props": {
+                  "label": "身份证号码",
+                  "name": "pid",
+                  "validateFirst": true,
+                  "rules": []
+                },
+                "children": {
+                  "componentType": "custom",
+                  "componentName": "Input",
+                  "version": "0.0.1",
+                  "placeholder": "请输入",
+                  "required": false,
+                  "id": "Input-5NATY6"
+                },
+                "id": "Form.Item-bAHrhZ"
+              },
+              "id": "Col-izaRnf",
+              "chosen": false
+            },
+            {
+              "componentType": "custom",
+              "componentName": "Col",
+              "attrs": {
+                "style": {
+                  
+                }
+              },
+              "props": {
+                "span": 8
+              },
+              "children": {
+                "componentType": "custom",
+                "componentName": "Form.Item",
+                "props": {
+                  "label": "手机号码",
+                  "name": "staffNumber",
+                  "validateFirst": true,
+                  "rules": []
+                },
+                "children": {
+                  "componentType": "custom",
+                  "componentName": "Input",
+                  "version": "0.0.1",
+                  "placeholder": "请输入",
+                  "required": false,
+                  "id": "Input-5NATY6"
+                },
+                "id": "Form.Item-bAHrhZ"
+              },
+              "id": "Col-zcA7kx",
+              "chosen": false
+            },
+            {
+              "componentType": "custom",
+              "id": "Col-Nh4ysi",
+              "componentName": "Col",
+              "attrs": {},
+              "props": {
+                "span": 8
+              },
+              "children": {
+                "componentType": "custom",
+                "id": "Form.Item-8n2hD7",
+                "componentName": "Form.Item",
+                "attrs": {},
+                "props": {
+                  "name": "staffTypes",
+                  "label": "人员类别",
+                  "validateFirst": true,
+                  "rules": [],
+                  "initialValue": "${[]}"
+                },
+                "children": {
+                  "0": {
+                    "props": {
+                      "tokenSeparators": ""
+                    }
+                  },
+                  "version": "1.0.0",
+                  "id": "Select-smQssT",
+                  "componentName": "Select",
+                  "attrs": {
+                    "style": {
+                      "width": "100%"
+                    }
+                  },
+                  "props": {
+                    "options": "${$.shareData.type}",
+                    "allowClear": true,
+                    "showSearch": true,
+                    "mode": "multiple",
+                    "tokenSeparators": "",
+                    ":getPopupContainer":"${function page1(triggerNode){\n  return triggerNode.parentNode || document.body;\n}}"
+                  }
+                }
+              }
+            },
+            {
+              "componentType": "custom",
+              "id": "Col-4xdyPG",
+              "componentName": "Col",
+              "attrs": {},
+              "props": {
+                "span": 8
+              },
+              "children": {
+                "componentType": "custom",
+                "id": "Form.Item-8n2hD7",
+                "componentName": "Form.Item",
+                "attrs": {},
+                "props": {
+                  "name": "area",
+                  "label": "所在行政区",
+                  "validateFirst": true,
+                  "rules": [],
+                  "initialValue": ""
+                },
+                "children": {
+                  "version": "1.0.0",
+                  "id": "Select-smQssT",
+                  "componentName": "Select",
+                  "attrs": {
+                    "style": {
+                      "width": "100%"
+                    }
+                  },
+                  "props": {
+                    "options": "${$.shareData.area}",
+                    "allowClear": true,
+                    "showSearch": false,
+                    ":getPopupContainer":"${function page1(triggerNode){\n  return triggerNode.parentNode || document.body;\n}}"
+                  }
+                }
+              },
+              "chosen": false
+            },
+            {
+              "componentType": "custom",
+              "componentName": "Col",
+              "attrs": {
+                "style": {
+                  
+                }
+              },
+              "props": {
+                "span": 8
+              },
+              "children": {
+                "componentType": "custom",
+                "componentName": "Form.Item",
+                "props": {
+                  "label": "详细地址",
+                  "name": "address",
+                  "validateFirst": true,
+                  "rules": []
+                },
+                "children": {
+                  "componentType": "custom",
+                  "componentName": "Input",
+                  "version": "0.0.1",
+                  "placeholder": "请输入",
+                  "required": false,
+                  "id": "Input-5NATY6"
+                },
+                "id": "Form.Item-bAHrhZ"
+              },
+              "id": "Col-rkCYxY",
+              "chosen": false
+            },
+            {
+              "componentType": "custom",
+              "componentName": "Col",
+              "attrs": {
+                "style": {
+                  
+                }
+              },
+              "props": {
+                "span": 8
+              },
+              "children": {
+                "componentType": "custom",
+                "id": "Form.Item-8n1112hD7",
+                "componentName": "Form.Item",
+                "attrs": {},
+                "props": {
+                  "name": "types",
+                  "label": "状态",
+                  "validateFirst": true,
+                  "rules": [],
+                  "initialValue": "${[]}"
+                },
+                "children": {
+                  "0": {
+                    "props": {}
+                  },
+                  "version": "1.0.0",
+                  "id": "Select-smQssT",
+                  "componentName": "Select",
+                  "attrs": {
+                    "style": {
+                      "width": "100%"
+                    }
+                  },
+                  "props": {
+                    "options": "${$.shareData.status}",
+                    "allowClear": true,
+                    "mode": "multiple",
+                    "showSearch": true,
+                    ":getPopupContainer":"${function page1(triggerNode){\n  return triggerNode.parentNode || document.body;\n}}"
+                  }
+                }
+              },
+              "id": "Col-MHten5",
+              "chosen": false
+            },
+            {
+              "componentType": "custom",
+              "id": "Col-fPBtRX",
+              "componentName": "Col",
+              "attrs": {},
+              "props": {
+                "offset": 0,
+                "order": 0,
+                "pull": 0,
+                "push": 0,
+                "span": 8
+              },
+              "children": [
+                {
+                  "componentType": "custom",
+                  "id": "Form.Item-yikkW8",
+                  "componentName": "Form.Item",
+                  "attrs": {
+                    "style": {
+                      "marginBottom": "24px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "id": "DatePicker-rAtanb",
+                      "componentName": "DatePicker",
+                      "attrs": {
+                        "style": {
+                          "width": "100%"
+                        }
+                      },
+                      "props": {
+                        "placeholder": "请选择时间",
+                        "format": "YYYY-MM-DD HH:mm:ss",
+                        "disabled": false,
+                        "required": false,
+                        ":getPopupContainer":"${function page1(triggerNode){\n  return triggerNode.parentNode || document.body;\n}}"
+                      },
+                      "chosen": false
+                    }
+                  ],
+                  "props": {
+                    "label": "审核通过开始时间",
+                    "name": "approvedStartTime",
+                    "rules": []
+                  }
+                }
+              ]
+            },
+            {
+              "componentType": "custom",
+              "id": "Col-c3M4fm",
+              "componentName": "Col",
+              "attrs": {},
+              "props": {
+                "offset": 0,
+                "order": 0,
+                "pull": 0,
+                "push": 0,
+                "span": 8
+              },
+              "children": [
+                {
+                  "componentType": "custom",
+                  "id": "Form.Item-yikkW8",
+                  "componentName": "Form.Item",
+                  "attrs": {
+                    "style": {
+                      "marginBottom": "24px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "id": "DatePicker-rAtanb",
+                      "componentName": "DatePicker",
+                      "attrs": {
+                        "style": {
+                          "width": "100%"
+                        }
+                      },
+                      "props": {
+                        "placeholder": "请选择时间",
+                        "format": "YYYY-MM-DD HH:mm:ss",
+                        "disabled": false,
+                        "required": false,
+                        "allowClear": true,
+                        ":getPopupContainer":"${function page2(triggerNode){\n  return triggerNode.parentNode || document.body;\n}}"
+                      },
+                      "chosen": false
+                    }
+                  ],
+                  "props": {
+                    "label": "审核通过结束时间",
+                    "name": "approvedEndTime",
+                    "rules": []
+                  }
+                }
+              ]
+            },
+            {
+              "componentType": "custom",
+              "id": "Col-QBdcFi",
+              "componentName": "Col",
+              "attrs": {},
+              "props": {
+                "offset": 0,
+                "order": 0,
+                "pull": 0,
+                "push": 0,
+                "span": 8
+              },
+              "children": [
+                {
+                  "componentType": "custom",
+                  "id": "Form.Item-yikkW8",
+                  "componentName": "Form.Item",
+                  "attrs": {
+                    "style": {
+                      "marginBottom": "24px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "id": "DatePicker-rAtanb",
+                      "componentName": "DatePicker",
+                      "attrs": {
+                        "style": {
+                          "width": "100%"
+                        }
+                      },
+                      "props": {
+                        "placeholder": "请选择时间",
+                        "format": "YYYY-MM-DD HH:mm:ss",
+                        "disabled": false,
+                        "required": false,
+                        ":getPopupContainer":"${function page3(triggerNode){\n  return triggerNode.parentNode || document.body;\n}}"
+                      },
+                      "chosen": false
+                    }
+                  ],
+                  "props": {
+                    "label": "弹窗开始时间",
+                    "name": "popupStartTime",
+                    "rules": []
+                  }
+                }
+              ]
+            },
+            {
+              "componentType": "custom",
+              "id": "Col-wcBejN",
+              "componentName": "Col",
+              "attrs": {},
+              "props": {
+                "offset": 0,
+                "order": 0,
+                "pull": 0,
+                "push": 0,
+                "span": 8
+              },
+              "children": [
+                {
+                  "componentType": "custom",
+                  "id": "Form.Item-yikkW8",
+                  "componentName": "Form.Item",
+                  "attrs": {
+                    "style": {
+                      "marginBottom": "24px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "id": "DatePicker-rAtanb",
+                      "componentName": "DatePicker",
+                      "attrs": {
+                        "style": {
+                          "width": "100%"
+                        }
+                      },
+                      "props": {
+                        "placeholder": "请选择时间",
+                        "format": "YYYY-MM-DD HH:mm:ss",
+                        "disabled": false,
+                        "required": false,
+                        "allowClear": true,
+                        ":getPopupContainer":"${function page4(triggerNode){\n  return triggerNode.parentNode || document.body;\n}}"
+                      },
+                      "chosen": false
+                    }
+                  ],
+                  "props": {
+                    "label": "弹窗结束时间",
+                    "name": "popupEndTime",
+                    "rules": []
+                  }
+                }
+              ]
+            },
+            {
+              "componentType": "custom",
+              "componentName": "Col",
+              "props": {
+                "span": "8",
+                "pull": ""
+              },
+              "children": {
+                "componentType": "custom",
+                "componentName": "Form.Item",
+                "children": {
+                  "componentType": "custom",
+                  "componentName": "Button",
+                  "version": "0.0.1",
+                  "props": {
+                    "htmlType": "submit",
+                    "children": "搜索",
+                    "type": "primary"
+                  },
+                  "id": "Button-AdhfhX"
+                },
+                "id": "Form.Item-bPZGys",
+                "props": {
+                  "name": ""
+                }
+              },
+              "id": "Col-NtYc7r",
+              "chosen": false,
+              "attrs": {
+                "style": {
+                  "text-align": "right",
+                  "display": "flex",
+                  "justify-content": "end"
+                }
+              }
+            }
+          ],
+          "id": "Row-dJNS7R",
+          "attrs": {
+            "style": {
+              "display": "flex"
+            }
+          }
+        }
+      ],
+      "chosen": false,
+      "action": {
+        "fire": {
+          "finish": {
+            "actions": [
+              {
+                "type": "dispatch",
+                "handler": "${$.shareData.paginationAction}",
+                "params": "${{...$.shareData.pagination, current: 1 }}"
+              },
+              {
+                "type": "dispatch",
+                "handler": "${$.shareData.formData_searchAction}",
+                "params": "${{...this.formData }}"
+              },
+              {
+                "type": "function",
+                "handler": "${async function Foo_rkTF35(formData){          \nconst res = await $.shareData.dataListApiAction({ ...$.shareData.formData_search, ...this.formData, current: 1, size: $.shareData.pagination.size })\nif (res) {\n  const { total, size, guaranteeList } = res;\n  $.shareData.dataListAction(guaranteeList)\n  $.shareData.paginationAction({\n    total, size\n  })\n}     }}"
+              }
+            ],
+            "arguments": [
+              "formData"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "componentType": "custom",
+      "id": "Row-E72Cww",
+      "componentName": "Row",
+      "props": {
+        "gutter": [
+          8,
+          8
+        ]
+      },
+      "children": [
+        {
+          "componentType": "custom",
+          "componentName": "Col",
+          "attrs": {},
+          "props": {
+            "span": "24"
+          },
+          "children": [
+            {
+              "componentType": "custom",
+              "id": "Table-hstrGb",
+              "componentName": "Table",
+              "attrs": {},
+              "props": {
+                "rowKey": "id",
+                "size": "middle",
+                "showHeader": true,
+                "scroll":"${{ \"x\": 1500, \"y\": 500 }}",
+                "pagination": {
+                  "size": "middle",
+                  "hideOnSinglePage": true,
+                  "pageSizeOptions": "${function pageSizeOptionsComputed() { return ['10', '20', '50', '100'] }}",
+                  "showSizeChanger": true,
+                  "simple": false,
+                  "showQuickJumper": true,
+                  "total": "${$.shareData.pagination.total}",
+                  "current": "${$.shareData.pagination.current}",
+                  "pageSize": "${$.shareData.pagination.size}"
+                },
+                "dataSource": "${$.shareData.dataList}",
+                "crossColor": true
+              },
+              "children": [
+                {
+                  "componentType": "custom",
+                  "componentName": "Table.Column",
+                  "props": {
+                    "title": "序号",
+                    "dataIndex": "id",
+                    "fixed": "left",
+                    "width": "60px",
+                    "$$slot$$render": "text, record, idx"
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "componentName": "Typography.Text",
+                      "props": {
+                        "children": "${idx + 1}"
+                      },
+                      "id": "Typography.Text-HaW24PK",
+                      "chosen": false
+                    }
+                  ],
+                  "id": "Table.Column-EpZNc17"
+                },
+                {
+                  "componentType": "custom",
+                  "componentName": "Table.Column",
+                  "props": {
+                    "title": "企业名称",
+                    "width": "200px",
+                    "dataIndex": "businessName",
+                    "fixed": "left",
+                    "$$slot$$render": "text, record, idx"
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "componentName": "Typography.Text",
+                      "props": {
+                        "children": "${text}"
+                      },
+                      "id": "Typography.Text-HaW4PK",
+                      "chosen": false
+                    }
+                  ],
+                  "id": "Table.Column-EpZNc7"
+                },
+                {
+                  "componentType": "custom",
+                  "componentName": "Table.Column",
+                  "props": {
+                    "title": "员工姓名",
+                    "width": "100px",
+                    "dataIndex": "staffName",
+                    "fixed": "left",
+                    "$$slot$$render": "text, record, idx"
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "componentName": "Typography.Text",
+                      "props": {
+                        "children": "${text}"
+                      },
+                      "id": "Typography.Text-AppnaQ",
+                      "chosen": false
+                    }
+                  ],
+                  "id": "Table.Column-PpzCEY"
+                },
+                {
+                  "componentType": "custom",
+                  "componentName": "Table.Column",
+                  "props": {
+                    "title": "身份证号码",
+                    "dataIndex": "pid",
+                    "width": "180px",
+                    "$$slot$$render": "text, record, idx"
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "componentName": "Typography.Text",
+                      "props": {
+                        "children": "${text}"
+                      },
+                      "id": "Typography.Text-AppnaQ",
+                      "chosen": false
+                    }
+                  ],
+                  "id": "Table.Column-3NPksb"
+                },
+                {
+                  "componentType": "custom",
+                  "componentName": "Table.Column",
+                  "props": {
+                    "title": "手机号码",
+                    "width": "140px",
+                    "dataIndex": "staffNumber",
+                    "$$slot$$render": "text, record, idx"
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "componentName": "Typography.Text",
+                      "props": {
+                        "children": "${text}"
+                      },
+                      "id": "Typography.Text-AppnaQ",
+                      "chosen": false
+                    }
+                  ],
+                  "id": "Table.Column-CdTwEN"
+                },
+                {
+                  "componentType": "custom",
+                  "componentName": "Table.Column",
+                  "props": {
+                    "title": "人员类别",
+                    "width": "100px",
+                    "dataIndex": "staffType",
+                    "$$slot$$render": "text, record, idx"
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "componentName": "Typography.Text",
+                      "props": {
+                        "children": "${text}"
+                      },
+                      "id": "Typography.Text-AppnaQ",
+                      "chosen": false
+                    }
+                  ],
+                  "id": "Table.Column-QAXZ5x"
+                },
+                {
+                  "componentType": "custom",
+                  "componentName": "Table.Column",
+                  "props": {
+                    "title": "所在行政区",
+                    "width": "110px",
+                    "dataIndex": "area",
+                    "$$slot$$render": "text, record, idx"
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "componentName": "Typography.Text",
+                      "props": {
+                        "children": "${text}"
+                      },
+                      "id": "Typography.Text-AppnaQ",
+                      "chosen": false
+                    }
+                  ],
+                  "id": "Table.Column-pxywXR"
+                },
+                {
+                  "componentType": "custom",
+                  "componentName": "Table.Column",
+                  "props": {
+                    "title": "服务涉及区域",
+                    "width": "120px",
+                    "dataIndex": "serviceArea",
+                    "$$slot$$render": "text, record, idx"
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "componentName": "Typography.Text",
+                      "props": {
+                        "children": "${text}"
+                      },
+                      "id": "Typography.Text-AppnaQ",
+                      "chosen": false
+                    }
+                  ],
+                  "id": "Table.Column-WERw4J"
+                },
+                {
+                  "componentType": "custom",
+                  "componentName": "Table.Column",
+                  "props": {
+                    "title": "经度",
+                    "width": "160px",
+                    "dataIndex": "longitude",
+                    "$$slot$$render": "text, record, idx"
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "componentName": "Typography.Text",
+                      "props": {
+                        "children": "${text}"
+                      },
+                      "id": "Typography.Text-AppnaQ",
+                      "chosen": false
+                    }
+                  ],
+                  "id": "Table.Column-5MSJ6E"
+                },
+                {
+                  "componentType": "custom",
+                  "componentName": "Table.Column",
+                  "props": {
+                    "title": "纬度",
+                    "width": "160px",
+                    "dataIndex": "latitude",
+                    "$$slot$$render": "text, record, idx"
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "componentName": "Typography.Text",
+                      "props": {
+                        "children": "${text}"
+                      },
+                      "id": "Typography.Text-AppnaQ",
+                      "chosen": false
+                    }
+                  ],
+                  "id": "Table.Column-y4rmK6"
+                },
+                {
+                  "componentType": "custom",
+                  "componentName": "Table.Column",
+                  "props": {
+                    "title": "状态",
+                    "width": "80px",
+                    "dataIndex": "type",
+                    "$$slot$$render": "text, record, idx"
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "componentName": "Typography.Text",
+                      "props": {
+                        "children": "${text}"
+                      },
+                      "id": "Typography.Text-AppnaQ",
+                      "chosen": false
+                    }
+                  ],
+                  "id": "Table.Column-SpzNxF"
+                },
+                {
+                  "componentType": "custom",
+                  "componentName": "Table.Column",
+                  "props": {
+                    "title": "审核通过时间",
+                    "width": "140px",
+                    "dataIndex": "approvedTime",
+                    "$$slot$$render": "text, record, idx"
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "componentName": "Typography.Text",
+                      "props": {
+                        "children": "${text}"
+                      },
+                      "id": "Typography.Text-AppnaQ",
+                      "chosen": false
+                    }
+                  ],
+                  "id": "Table.Column-azfPN5"
+                },
+                {
+                  "componentType": "custom",
+                  "componentName": "Table.Column",
+                  "props": {
+                    "title": "弹窗时间",
+                    "width": "140px",
+                    "dataIndex": "popupTime",
+                    "$$slot$$render": "text, record, idx"
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "componentName": "Typography.Text",
+                      "props": {
+                        "children": "${text}"
+                      },
+                      "id": "Typography.Text-AppnaQ",
+                      "chosen": false
+                    }
+                  ],
+                  "id": "Table.Column-cckZxG"
+                },
+                {
+                  "componentType": "custom",
+                  "componentName": "Table.Column",
+                  "props": {
+                    "title": "备注",
+                    "width": "140px",
+                    "dataIndex": "remarks",
+                    "$$slot$$render": "text, record, idx"
+                  },
+                  "children": [
+                    {
+                      "componentType": "custom",
+                      "componentName": "Typography.Text",
+                      "props": {
+                        "children": "${text}"
+                      },
+                      "id": "Typography.Text-AppnaQ",
+                      "chosen": false
+                    }
+                  ],
+                  "id": "Table.Column-5wfQy2"
+                }
+              ],
+              "chosen": false,
+              "action": {
+                "fire": {
+                  "change": {
+                    "actions": [
+                      {
+                        "type": "function",
+                        "handler": "${async function Foo_6PNJbA(page){    console.log(\"page=>\",page) \nconsole.log(\"search=>\", shareData.formData_search) \n\nconst res = await $.shareData.dataListApiAction({\n     current: page.current,\n     size: page.pageSize,\n     ...$.shareData.formData_search\n})\nif (res) {\n     const { total, current, size, guaranteeList } = res;\n     $.shareData.dataListAction(guaranteeList)\n     $.shareData.paginationAction({\n          total, \n          current: page.current, \n          size: page.pageSize\n     })\n}         }}"
+                      }
+                    ],
+                    "arguments": [
+                      "page"
+                    ]
+                  }
+                }
+              }
+            }
+          ],
+          "id": "Col-3AF8Tz"
+        }
+      ],
+      "attrs": {
+        "style": {
+          "background": "rgba(255,255,255,1)",
+          "border-radius": "4px",
+          "box-shadow": "0 1px 4px 0 rgba(0,0,0,0.02), 0 2px 12px 0 rgba(0,0,0,0.02)",
+          "padding-top": "20px",
+          "padding-right": "20px",
+          "padding-bottom": "20px",
+          "padding-left": "20px",
+          "margin-top": "20px"
+        }
+      }
+    }
+  ]
+}

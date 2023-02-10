@@ -1,0 +1,293 @@
+.tableTab {
+  pointer-events: auto;
+  width: max-content;
+  height: max-content;
+  padding: 1px;
+  background: var(--common-content-bg);
+  background-size: 100% 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 352px;
+  height: 332px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  // opacity: 0.95;
+
+  .tableTabHead {
+    height: 32px;
+    background: var(--common-head-bg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .tableTabTitle {
+      padding: 9px 0 9px 44px;
+      padding-left: 12%;
+      font-size: 14px;
+      line-height: 1;
+      font-family: Source Han Sans CN;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 1);
+      text-shadow: 0 4px 4px rgba(3, 240, 255, 0.25);
+    }
+
+    .title {
+      line-height: 32px;
+      margin-right: 20px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .tableTabNum {
+      padding: 10px 12px 8px 0;
+      font-size: 14px;
+      line-height: 1;
+      font-family: Source Han Sans CN;
+      font-weight: bold;
+      color: var(--num-color);
+    }
+
+    .tableTabClose {
+      width: 16px;
+      height: 16px;
+      align-self: center;
+      margin-right: 16px;
+      cursor: pointer;
+      background: url(../../../../../assets/images/close.png) no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+
+  .tableTabContent {
+    flex: 1;
+    overflow: hidden;
+    padding: 16px 8px 36px;
+
+    :global {
+      .ant-table-wrapper,.ant-spin-nested-loading,.ant-spin-container,.ant-table{
+        width: 100%;
+        height: 100%;
+        .ant-table-container{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          .ant-table-header{
+            overflow: visible!important;
+          }
+        }
+      }
+      .ant-table-body {
+        table {
+          border-spacing: 0 8px;
+          position: relative;
+          top: -8px;
+        }
+      }
+
+      .ant-table-cell {
+        padding: 8px;
+        font-size: 12px;
+        font-family: Source Han Sans CN;
+        font-weight: normal;
+        line-height: 1;
+        border: 0;
+      }
+
+      .ant-table-thead {
+        border-radius: 2px;
+
+        .ant-table-cell {
+          color: var(--ant-table-thead--color);
+          background-color: var(--ant-table-thead--bg);
+        }
+
+        .ant-table-cell-scrollbar {
+          display: none;
+        }
+      }
+
+      .ant-table-row {
+        cursor: pointer;
+
+        .ant-table-cell {
+          color: var(--ant-table-cell-color);
+          background: var(--ant-table-cell-bg);
+        }
+      }
+
+      .ant-table-row-cross-color {
+        .ant-table-cell {
+          color: var(--ant-table-cell-color);
+          background:var( --ant-table-row-cross-color-bg) ;
+        }
+      }
+
+      .ant-table-row.active {
+        .ant-table-cell:first-child {
+          border-left: 2px solid var(--table-cell-border-left-color);
+        }
+
+        // .ant-table-cell {
+        //   background: #1A3B4A;
+        // }
+      }
+
+      .ant-table {
+        background: initial;
+      }
+
+      .ant-table-placeholder:hover {
+        .ant-table-cell {
+          background: none;
+        }
+      }
+
+    //   .ant-empty-image {
+    //     display: none;
+    //   }
+
+      .ant-empty-description {
+        color: var(--word-color)!important;
+      }
+
+      .ant-progress-steps-item {
+        background: #1A5561;
+      }
+      
+      .ant-table-placeholder .ant-table-cell {
+        background: inherit;
+      }
+    }
+  }
+
+  /*---滚动条默认显示样式--*/
+  ::-webkit-scrollbar-thumb {
+    height: 50px;
+    border-radius: 4px;
+  }
+
+  /*---鼠标点击滚动条显示样式--*/
+  ::-webkit-scrollbar-thumb:hover {
+    height: 50px;
+    border-radius: 4px;
+  }
+
+  /*---滚动条大小--*/
+  ::-webkit-scrollbar {
+    width: 2px;
+    height: 8px;
+  }
+
+  /*---滚动框背景样式--*/
+  ::-webkit-scrollbar-track-piece {
+    -webkit-border-radius: 0;
+  }
+
+  /* 滚动条的滑轨背景颜色 */
+  ::-webkit-scrollbar-track {
+    background-color: var(--ant-table-row-cross-color-bg);
+    // opacity: 40;
+  }
+
+  /* 滑块颜色 */
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--webkit-scrollbar-thumb-bg);
+    // opacity: 10;
+  }
+
+  /* 滚动条滑轨 */
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  /* 横向滚动条和纵向滚动条相交处尖角 */
+  ::-webkit-scrollbar-corner {
+    display: none;
+  }
+}
+
+.borderTable {
+  :global {
+    .ant-table-cell {
+      &:not(:first-child) {
+        &::before {
+          width: 1px;
+          height: 12px;
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 0;
+          transform: translate(0, -50%);
+          background: #D8D8D8;
+          opacity: 50;
+        }
+      }
+
+      height: 40px;
+      background: var(--ant-table-row-cross-color-bg);
+      border-radius: 2px;
+      font-size: 12px;
+      font-family: Source Han Sans CN;
+      color: var(--word-color);
+      border: none;
+    }
+  }
+}
+
+.line_margin {
+  :global {
+    & table {
+      border-collapse: separate;
+      border-spacing: 0 8px !important;
+    }
+  }
+}
+
+.tabs_titles {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+
+  li {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0, 87, 87, 1) 0%, rgba(0, 22, 22, 1) 100%);
+    opacity: 50;
+    height: 100%;
+    line-height: 32px;
+    text-align: center;
+    flex: 1;
+    cursor: pointer;
+    & > img {
+      margin: 0 8px 0 27px;
+      width: 27px !important;
+      height: 27px !important;
+    }
+    &.active {
+      background: linear-gradient(180deg, rgba(0,211,212,1) 0%,rgba(0,59,60,0) 100%);
+    }
+  }
+}
+.count {
+  margin-bottom: 15px;
+  color: #fff;
+}
+.bg_btn {
+  width: 100%;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  background: var(--bottom-btn-bgm);
+  background-size: cover;
+  color: var(--tabs_plan-back);
+  font-size: 14px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

@@ -1,0 +1,29 @@
+@bread-height: 54px;
+
+.layout {
+  width: 100%;
+  height: 100vh;
+}
+
+.layout-container {
+  height: calc(100vh - @layout-header-height-sm);
+  transition: all 0.2s;
+}
+
+.layout-content {
+  height: 100%;
+}
+
+.layout-content-body {
+  // margin-top: 24px;
+  // padding: 0 24px 24px 24px;
+  padding: 0 24px 0;
+  height: calc(100vh - @bread-height - @layout-header-height-sm - 24px);
+  // height: 100%;
+  overflow: auto;
+}
+
+.layout-content-mid {
+  // padding: 24px;
+  background-color: #fff;
+}

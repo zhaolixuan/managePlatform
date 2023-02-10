@@ -1,0 +1,158 @@
+.solution {
+    width: 100%;
+    height: 100%;
+    padding: 80px 42px 0;
+    background: url('../../../assets//images/solution_bg.png') no-repeat center/cover;
+
+    .solution_body {
+        max-height: calc(743px - 32px);
+        padding: 8px;
+        background: rgba(255, 255, 255, 0.61);
+        border: 1px solid;
+        border-image: linear-gradient(111.99deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.46) 33.87247025966644%, rgba(255, 255, 255, 0.44) 52.60416865348816%, rgba(255, 255, 255, 0) 100%) 1 1;
+        border-radius: 4px;
+        box-shadow: 0 4px 16px 0 rgba(0, 20, 38, 0.15);
+        overflow: hidden auto;
+
+        :global {
+            .ant-table-thead .ant-table-cell {
+                background-color: #e3e3e3;
+                border: 1px solid #979797;
+                border-left: none;
+                border-top: none;
+                font-size: 12px;
+                font-family: Source Han Sans CN;
+                font-weight: bold;
+                color: rgba(60, 60, 60, 1);
+            }
+        }
+    }
+
+    .title {
+        padding-left: 16px;
+        line-height: 32px;
+        background: rgba(255, 255, 255, 1);
+        font-size: 16px;
+        font-family: Source Han Sans CN;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 1);
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.16);
+        background: url('../../../assets/images/solution_title.png') center/cover;
+
+        img {
+            margin-right: 8px;
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+.solution_night {
+    width: 100%;
+    height: 100%;
+    padding: 80px 42px 0;
+    background:url('../../../assets//images/bg-night.png') no-repeat center/cover;
+
+    .solution_body {
+        padding: 8px;
+        background: #1E2836;
+        border: 1px solid;
+        border-image: linear-gradient(111.99deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.46) 33.87247025966644%, rgba(255, 255, 255, 0.44) 52.60416865348816%, rgba(255, 255, 255, 0) 100%) 1 1;
+        border-radius: 4px;
+        box-shadow: 0 4px 16px 0 rgba(0, 20, 38, 0.15);
+        overflow: hidden;
+    }
+
+    .title {
+        padding-left: 16px;
+        line-height: 32px;
+        background: rgba(255, 255, 255, 1);
+        font-size: 14px;
+        font-family: Source Han Sans CN;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 1);
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.16);
+        background: url('../../../assets/images/solution_title_night.png') center/cover;
+
+        img {
+            margin-right: 8px;
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .row {
+        background-color: #151E2A;
+   
+        :global {
+          & .ant-table-cell {
+            background-color: #151E2A;
+            border: 1px solid #3C424A;
+            color: #fff;
+            font-size: 16px;
+          }
+        }
+      }
+   
+      .rows {
+        background-color: #212934;
+   
+        :global {
+          & .ant-table-cell {
+            background-color: #212934;
+            border: 1px solid #3C424A;
+            color: #fff;
+            font-size: 16px;
+          }
+        }
+   
+      }
+
+    :global {
+        .ant-table-thead .ant-table-cell {
+            background-color: #333F51 !important;
+            color: #fff !important;
+            border: 1px solid #6F747B;
+            border-left: none;
+            border-top: none;
+            font-size: 14px;
+            font-family: Source Han Sans CN;
+            font-weight: bold;
+          }
+
+          .ant-table.ant-table-bordered table thead > tr:not(:last-child) > th {
+            border: 1px solid #6F747B;
+          }
+     
+          .ant-table-tbody {
+     
+            >tr:hover:not(.ant-table-expanded-row)>td,
+            .ant-table-row-hover,
+            .ant-table-row-hover>td {
+              background: inherit !important;
+            }
+          }
+     
+          .ant-table-fixed {
+     
+            .ant-table-row-hover,
+            .ant-table-row-hover>td {
+              background: inherit !important;
+            }
+          }
+     
+          .ant-table-container {
+            border: 1px solid #3C424A !important;
+          }
+     
+          .ant-table-tbody {
+            background-color: #17202C !important;
+          }
+
+          .ant-tag {
+            background: rgba(2,255,255,0.2);
+            color: #02FFFF;
+            margin: 0 8px 6px 0;
+          }
+    }
+}

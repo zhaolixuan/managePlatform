@@ -1,0 +1,248 @@
+.carIn_wrap {
+  .boxShadow {
+    box-shadow: var(--common-box-shadow);
+    backdrop-filter: var(--common-backdrop-filter);
+    margin: 0 12px 12px;
+  }
+  .com_padding{
+    height: 100%;
+    overflow: hidden;
+    padding: 0 0 16px;
+    &.show {
+      display: block;
+    }
+
+    &.hide {
+      display: none;
+    }
+  }
+  .card_outside_box{
+    width: 370px;
+  }
+  .btn_search {
+    position: absolute;
+    top: 92px;
+    right: 420px;
+    pointer-events: auto;
+    background: var(--ant-btn-primary-bg);
+    border: none;
+    // border-image: linear-gradient(95.47deg, rgba(3, 240, 255, 0.19) 0%, rgba(3, 240, 255, 0.46) 33.87247026%, rgba(3, 240, 255, 0.44) 52.60416865%, rgba(3, 240, 255, 0.19) 100%) 0.5 0.5;
+    border-radius: 4px;
+    color: #fff;
+    // // opacity: 0.95;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+
+    &:hover {
+      background: var(--btn-hover);
+    }
+  }
+
+  .carInPercent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  img {
+    width: 40px;
+    pointer-events: auto;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .left {
+    width: 460px;
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    right: 40px;
+    z-index: 9999;
+    display: flex;
+    box-sizing: border-box;
+    background: var(--excess-left-bg);
+    background-size: 100% 100%;
+    padding: 18px 0 0 28px;
+
+    .img_wrap {
+      display: flex;
+      align-items: center;
+    }
+
+    .table_list_wrap {
+      height: 100%;
+      overflow-y: auto;
+      &::-webkit-scrollbar{
+        width: 0;
+      }
+      .tablePercentText {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .search {
+    .search_wrap {
+      pointer-events: auto;
+    }
+
+    .btn_bottom {
+      position: 'absolute';
+      bottom: '32px';
+      left: '407px';
+      z-index: 9999;
+    }
+  }
+
+  .right {
+    background: var(--excess-right-bg);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    padding: 33px 28px 0 0;
+
+    .img_wrap {
+      display: flex;
+      align-items: center;
+    }
+
+    .right_wrap {
+      height: 100%;
+      overflow-y: auto;
+      &::-webkit-scrollbar{
+        width: 0;
+      }
+      .summary {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding: 16px;
+        div{
+          width: 100%;
+          height: 100%;
+          padding: 8px;
+          border: var(--point_name-border);
+          background: var(--point_name-bgm);
+          border-image: var(--point_name-border-image);
+          border-radius: 4px;
+          overflow: hidden;
+          p {
+            width: 100%;
+            height: 100%;
+            font-size: 15px;
+            font-family: Source Han Sans CN;
+            font-weight: normal;
+            color: var(--word-color);
+            word-break: break-all;
+            overflow-y: scroll;
+            &::-webkit-scrollbar{
+              width: 0;
+            }
+          }
+        }
+        /*---滚动条默认显示样式--*/
+        ::-webkit-scrollbar-thumb {
+          height: 5px;
+          border-radius: 4px;
+        }
+
+        /*---鼠标点击滚动条显示样式--*/
+        ::-webkit-scrollbar-thumb:hover {
+          height: 20px;
+          border-radius: 4px;
+        }
+
+        /*---滚动条大小--*/
+        ::-webkit-scrollbar {
+          width: 1px;
+          height: 1px;
+        }
+
+        /*---滚动框背景样式--*/
+        ::-webkit-scrollbar-track-piece {
+          -webkit-border-radius: 0;
+        }
+
+        /* 滚动条的滑轨背景颜色 */
+        ::-webkit-scrollbar-track {
+          background-color: white;
+          opacity: 0;
+        }
+        /* 滑块颜色 */
+        ::-webkit-scrollbar-thumb {
+          background-color: var(--webkit-scrollbar-thumb-bg);
+          // opacity: 10;
+        }
+        /* 滚动条滑轨 */
+        ::-webkit-scrollbar-button {
+          display: none;
+        }
+        /* 横向滚动条和纵向滚动条相交处尖角 */
+        ::-webkit-scrollbar-corner {
+          display: none;
+        }
+      }
+    }
+
+    .chart_wrap {
+      margin-right: 20px;
+      width: max-content;
+
+      & > div + & > div {
+        margin-top: var(--margin-bottom-12);
+      }
+    }
+  }
+ 
+}
+
+.mobileP {
+  top: 0 !important;
+  padding-top: 80px !important;
+}
+.userChartDialog {
+    :global {
+      .tabs_top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 32px;
+        background: var(--tabs_top-bg);
+        position: relative;
+        & > img {
+          margin-right: 6px;
+          width: 25px;
+          height: 25px;
+          cursor: pointer;
+        }
+        .title {
+          position: absolute;
+          top: 5px;
+          left: 30px;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .check_box{
+    position: absolute;
+      bottom: 32px;
+      left: 23.8%;
+      z-index: 10002;
+      width: auto;
+      :global {
+        .ant-checkbox-group-item {
+          width: 144px !important;
+        }
+      }
+  
+      .checkbox .checkbox-extend {
+        width: 380px !important;
+      }
+  }
